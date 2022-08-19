@@ -1318,4 +1318,62 @@ F 3 "" H 8950 4950 50  0001 C CNN
 	1    8950 4950
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:Conn_01x05_Male J?
+U 1 1 630046EC
+P 8000 6100
+F 0 "J?" H 8108 6481 50  0000 C CNN
+F 1 "Conn_01x05_Male" H 8108 6390 50  0000 C CNN
+F 2 "" H 8000 6100 50  0001 C CNN
+F 3 "~" H 8000 6100 50  0001 C CNN
+	1    8000 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 63005C38
+P 8500 6200
+F 0 "R?" V 8295 6200 50  0000 C CNN
+F 1 "220" V 8386 6200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 8500 6200 50  0001 C CNN
+F 3 "~" H 8500 6200 50  0001 C CNN
+	1    8500 6200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8200 6200 8400 6200
+Wire Wire Line
+	8200 6300 8400 6300
+$Comp
+L power:GND #PWR?
+U 1 1 63019471
+P 8200 6000
+F 0 "#PWR?" H 8200 5750 50  0001 C CNN
+F 1 "GND" H 8205 5827 50  0000 C CNN
+F 2 "" H 8200 6000 50  0001 C CNN
+F 3 "" H 8200 6000 50  0001 C CNN
+	1    8200 6000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 63007DA2
+P 8500 6300
+F 0 "R?" V 8300 6300 50  0000 C CNN
+F 1 "220" V 8400 6300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 8500 6300 50  0001 C CNN
+F 3 "~" H 8500 6300 50  0001 C CNN
+	1    8500 6300
+	0    -1   -1   0   
+$EndComp
+Text GLabel 8700 6150 1    50   Input ~ 0
+USB5V
+Wire Wire Line
+	8600 6200 8700 6200
+Wire Wire Line
+	8700 6200 8700 6150
+Wire Wire Line
+	8600 6300 8700 6300
+Text GLabel 8700 6300 2    50   Input ~ 0
+MIDIO
 $EndSCHEMATC
