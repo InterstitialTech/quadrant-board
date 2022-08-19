@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name quadrant)(type Legacy)(uri ${KIPRJMOD}/quadrant.lib)(options "")(descr ""))
+  (lib (name quadrant-rescue)(type Legacy)(uri ${KIPRJMOD}/quadrant-rescue.lib)(options "")(descr ""))
 )
