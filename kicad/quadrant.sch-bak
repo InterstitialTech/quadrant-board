@@ -1728,4 +1728,48 @@ Wire Wire Line
 	5450 6900 6050 6900
 Wire Wire Line
 	6050 7250 6050 7000
+$Comp
+L Connector:AudioJack3 J?
+U 1 1 632A53EB
+P 850 7150
+F 0 "J?" H 832 7475 50  0000 C CNN
+F 1 "AudioJack3" H 832 7384 50  0000 C CNN
+F 2 "" H 850 7150 50  0001 C CNN
+F 3 "~" H 850 7150 50  0001 C CNN
+	1    850  7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack3 J?
+U 1 1 632A6C57
+P 750 4250
+F 0 "J?" H 732 4575 50  0000 C CNN
+F 1 "AudioJack3" H 732 4484 50  0000 C CNN
+F 2 "" H 750 4250 50  0001 C CNN
+F 3 "~" H 750 4250 50  0001 C CNN
+	1    750  4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack3 J?
+U 1 1 632A73EA
+P 3300 3250
+F 0 "J?" H 3282 3575 50  0000 C CNN
+F 1 "AudioJack3" H 3282 3484 50  0000 C CNN
+F 2 "" H 3300 3250 50  0001 C CNN
+F 3 "~" H 3300 3250 50  0001 C CNN
+	1    3300 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack3 J?
+U 1 1 632A8ADB
+P 5150 5050
+F 0 "J?" H 5132 5375 50  0000 C CNN
+F 1 "AudioJack3" H 5132 5284 50  0000 C CNN
+F 2 "" H 5150 5050 50  0001 C CNN
+F 3 "~" H 5150 5050 50  0001 C CNN
+	1    5150 5050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
