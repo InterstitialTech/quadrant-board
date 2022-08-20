@@ -1446,7 +1446,7 @@ U 1 1 63100F10
 P 10250 1200
 F 0 "C24" H 10150 1300 50  0000 C CNN
 F 1 "1 uF" H 10100 1100 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10288 1050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 10288 1050 50  0001 C CNN
 F 3 "~" H 10250 1200 50  0001 C CNN
 	1    10250 1200
 	-1   0    0    1   
@@ -1476,7 +1476,7 @@ U 1 1 63126D9A
 P 7650 1300
 F 0 "C19" H 7550 1400 50  0000 C CNN
 F 1 "1 uF" H 7500 1200 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7688 1150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7688 1150 50  0001 C CNN
 F 3 "~" H 7650 1300 50  0001 C CNN
 	1    7650 1300
 	-1   0    0    1   
@@ -1587,7 +1587,7 @@ U 1 1 63227A08
 P 6450 7250
 F 0 "Q1" H 6350 7400 50  0000 L CNN
 F 1 "Q_NMOS_GDS" H 5950 7100 50  0000 L CNN
-F 2 "" H 6650 7350 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6650 7350 50  0001 C CNN
 F 3 "~" H 6450 7250 50  0001 C CNN
 	1    6450 7250
 	-1   0    0    -1  
@@ -1729,10 +1729,10 @@ F 3 "~" H 7450 800 50  0001 C CNN
 $EndComp
 Connection ~ 7450 950 
 $Comp
-L Connector:AudioJack2_Ground_SwitchT J?
+L Connector:AudioJack2_Ground_SwitchT J4
 U 1 1 6302801B
 P 850 6850
-F 0 "J?" H 882 7175 50  0000 C CNN
+F 0 "J4" H 882 7175 50  0000 C CNN
 F 1 "AudioJack2_Ground_SwitchT" H 882 7084 50  0000 C CNN
 F 2 "quadrant:sj-352x-smt" H 850 6850 50  0001 C CNN
 F 3 "~" H 850 6850 50  0001 C CNN
@@ -1740,10 +1740,10 @@ F 3 "~" H 850 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:AudioJack2_Ground_SwitchT J?
+L Connector:AudioJack2_Ground_SwitchT J3
 U 1 1 630294BC
 P 800 4250
-F 0 "J?" H 832 4575 50  0000 C CNN
+F 0 "J3" H 832 4575 50  0000 C CNN
 F 1 "AudioJack2_Ground_SwitchT" H 832 4484 50  0000 C CNN
 F 2 "quadrant:sj-352x-smt" H 800 4250 50  0001 C CNN
 F 3 "~" H 800 4250 50  0001 C CNN
@@ -1751,10 +1751,10 @@ F 3 "~" H 800 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:AudioJack2_Ground_SwitchT J?
+L Connector:AudioJack2_Ground_SwitchT J5
 U 1 1 63029A0E
 P 3400 3250
-F 0 "J?" H 3432 3575 50  0000 C CNN
+F 0 "J5" H 3432 3575 50  0000 C CNN
 F 1 "AudioJack2_Ground_SwitchT" H 3432 3484 50  0000 C CNN
 F 2 "quadrant:sj-352x-smt" H 3400 3250 50  0001 C CNN
 F 3 "~" H 3400 3250 50  0001 C CNN
@@ -1762,10 +1762,10 @@ F 3 "~" H 3400 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:AudioJack2_Ground_SwitchT J?
+L Connector:AudioJack2_Ground_SwitchT J6
 U 1 1 6302A0BE
 P 5250 4950
-F 0 "J?" H 5282 5275 50  0000 C CNN
+F 0 "J6" H 5282 5275 50  0000 C CNN
 F 1 "AudioJack2_Ground_SwitchT" H 5282 5184 50  0000 C CNN
 F 2 "quadrant:sj-352x-smt" H 5250 4950 50  0001 C CNN
 F 3 "~" H 5250 4950 50  0001 C CNN
