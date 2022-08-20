@@ -1374,8 +1374,6 @@ Wire Wire Line
 	7200 5750 7200 5700
 Wire Wire Line
 	7100 5850 7200 5850
-Text GLabel 10250 6250 2    50   Input ~ 0
-MIDIO
 $Comp
 L power:GND #PWR?
 U 1 1 6304CE55
@@ -1702,30 +1700,6 @@ Wire Wire Line
 	10700 1800 10600 1800
 Wire Wire Line
 	10300 1800 10200 1800
-$Comp
-L 74xGxx:74AHC1G126 U?
-U 1 1 632050DE
-P 9950 6250
-F 0 "U?" H 9925 6075 50  0000 C CNN
-F 1 "74AHC1G125" H 9925 5984 50  0000 C CNN
-F 2 "" H 9950 6250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 9950 6250 50  0001 C CNN
-	1    9950 6250
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 632172B1
-P 9900 6300
-F 0 "#PWR?" H 9900 6050 50  0001 C CNN
-F 1 "GND" H 9905 6127 50  0000 C CNN
-F 2 "" H 9900 6300 50  0001 C CNN
-F 3 "" H 9900 6300 50  0001 C CNN
-	1    9900 6300
-	1    0    0    -1  
-$EndComp
-Text GLabel 9950 6050 1    50   Input ~ 0
-USB5V
 $Comp
 L Device:Q_NMOS_GDS Q?
 U 1 1 63227A08
