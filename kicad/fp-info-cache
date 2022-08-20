@@ -1,4 +1,4 @@
-19040997689769446
+19042658720559014
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83062,6 +83062,13 @@ QFN DFN_QFN
 70
 57
 quadrant
+SDS-50J
+
+
+0
+0
+0
+quadrant
 TCRT5000
 
 
@@ -83087,5 +83094,5 @@ sj-352x-smt
 
 
 0
-0
-0
+6
+4
