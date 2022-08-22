@@ -1,4 +1,4 @@
-19042658720559014
+19107273334697572
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83047,52 +83047,332 @@ varistor SIOV
 0
 2
 2
-quadrant
-Crystal_SMD_HC49-US
-SMD Crystal HC-49-SD http://cdn-reichelt.de/documents/datenblatt/B400/xxx-HC49-SMD.pdf, 11.4x4.7mm^2 package
-SMD SMT crystal
-0
-2
-2
-quadrant
-RP2040-QFN-56
-QFN, 56 Pin (http://www.cypress.com/file/416486/download#page=40), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-QFN DFN_QFN
-0
-70
-57
-quadrant
-SDS-50J
+automato-sensor
+ESP32-WROOM-DA
 
 
 0
-0
-0
-quadrant
-TCRT5000
+49
+41
+automato-sensor
+ILI9341_2.8in
 
 
 0
-4
-4
-quadrant
-USB_Micro-B_Amphenol_10103594-0001LF_Horizontal_modified
-Micro USB Type B 10103594-0001LF, http://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10103594.pdf
-USB USB_B USB_micro USB_OTG
+18
+18
+automato-sensor
+L102021ML04Q
+
+
 0
-17
-6
-quadrant
-VL6180X
+3
+3
+automato-sensor
+TerminalBlock_Phoenix_PT-1,5-20-3.5-H_1x20_P3.50mm_Horizontal
+Terminal Block Phoenix PT-1,5-16-3.5-H, 16 pins, pitch 3.5mm, size 56x7.6mm^2, drill diamater 1.2mm, pad diameter 2.4mm, see , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_Phoenix
+THT Terminal Block Phoenix PT-1,5-16-3.5-H pitch 3.5mm size 56x7.6mm^2 drill 1.2mm pad 2.4mm
+0
+20
+20
+automato-sensor
+USB_C_Receptacle_Amphenol_12401610E4-2A_CircularHoles_nopads
+USB TYPE C, RA RCPT PCB, SMT, https://www.amphenolcanada.com/StockAvailabilityPrice.aspx?From=&PartNum=12401610E4%7e2A
+USB C Type-C Receptacle SMD
+0
+28
+25
+automato-sensor
+eink-module
 
 
 0
 12
-12
-quadrant
-sj-352x-smt
+8
+logo
+Antenna
 
 
 0
-6
-4
+0
+0
+logo
+Automato Logo Mixer
+
+
+0
+0
+0
+logo
+Automato Logo Mixer_BOLD
+
+
+0
+0
+0
+logo
+Automato Logo Mixer_BOLD_Neg
+
+
+0
+0
+0
+logo
+Automato Logo Mixer_Bolt
+
+
+0
+0
+0
+logo
+AutomatoLogo
+
+
+0
+0
+0
+logo
+Automato_TextOnly
+
+
+0
+0
+0
+logo
+Automato_TextOnly_Small
+
+
+0
+0
+0
+logo
+Battery Symbol_V2
+
+
+0
+0
+0
+logo
+BlueTooth Logo
+
+
+0
+0
+0
+logo
+Clock Symbol
+
+
+0
+0
+0
+logo
+DV Vin Symbol
+
+
+0
+0
+0
+logo
+DV Vin Symbol_V2
+
+
+0
+0
+0
+logo
+ESP32_Text
+
+
+0
+0
+0
+logo
+ESP32__BubbleText
+
+
+0
+0
+0
+logo
+GND
+
+
+0
+0
+0
+logo
+LoRa Logo
+
+
+0
+0
+0
+logo
+Logo_Simple
+
+
+0
+0
+0
+logo
+Logo_Simple Front
+
+
+0
+0
+0
+logo
+Logo_Simple_Small
+
+
+0
+0
+0
+logo
+Logo_Simple_Small_NoText
+
+
+0
+0
+0
+logo
+Positive Symbol
+
+
+0
+0
+0
+logo
+RX Symbol
+
+
+0
+0
+0
+logo
+SCL Symbol
+
+
+0
+0
+0
+logo
+SDA Symbol
+
+
+0
+0
+0
+logo
+TEST_AutomatoLogo
+
+
+0
+0
+0
+logo
+TX Symbol
+
+
+0
+0
+0
+logo
+Temp-Humidity_Box
+
+
+0
+0
+0
+logo
+Temp-Humidity_Drop
+
+
+0
+0
+0
+logo
+Temp-Humidity_Drop_Neg
+
+
+0
+0
+0
+logo
+USB Symbol
+
+
+0
+0
+0
+logo
+USB_Symbol Only
+
+
+0
+0
+0
+logo
+VBAT
+
+
+0
+0
+0
+logo
+VBAT 3p4-6V
+
+
+0
+0
+0
+logo
+VBAT Voltage Range
+
+
+0
+0
+0
+logo
+VBAT_V2
+
+
+0
+0
+0
+logo
+VIN
+
+
+0
+0
+0
+logo
+VIN 3p3-36V
+
+
+0
+0
+0
+logo
+VIN Voltage Range
+
+
+0
+0
+0
+logo
+Version Number
+
+
+0
+0
+0
+logo
+Wifi Logo
+
+
+0
+0
+0
