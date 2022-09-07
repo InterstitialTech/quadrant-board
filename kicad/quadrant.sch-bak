@@ -269,14 +269,14 @@ F 3 "" H 4200 4050 50  0001 C CNN
 	1    4200 4050
 	1    0    0    -1  
 $EndComp
-Text GLabel 10750 2550 0    50   Input ~ 0
-SCL
-Text GLabel 10750 2650 0    50   Input ~ 0
-SDA
+Text GLabel 10700 2450 1    50   Input ~ 0
+SCL0
+Text GLabel 10600 2450 1    50   Input ~ 0
+SDA0
 Text GLabel 2950 4550 0    50   Input ~ 0
-SCL
+SCL0
 Text GLabel 2950 4650 0    50   Input ~ 0
-SDA
+SDA0
 Wire Wire Line
 	2950 4650 3000 4650
 Wire Wire Line
@@ -325,10 +325,6 @@ F 3 "" H 11000 2200 50  0001 C CNN
 	1    11000 2200
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	11300 2500 11300 2550
-Wire Wire Line
-	11300 2550 10750 2550
 Wire Wire Line
 	3900 4450 4050 4450
 Wire Wire Line
@@ -453,10 +449,6 @@ Wire Wire Line
 	15200 3000 15200 3400
 Wire Wire Line
 	15200 4500 15200 4800
-Wire Wire Line
-	11000 2500 11000 2650
-Wire Wire Line
-	11000 2650 10750 2650
 $Comp
 L Device:R R10
 U 1 1 5C394371
@@ -569,9 +561,9 @@ F 3 "" H 4200 6900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 2950 7400 0    50   Input ~ 0
-SCL
+SCL0
 Text GLabel 2950 7500 0    50   Input ~ 0
-SDA
+SDA0
 Wire Wire Line
 	2950 7500 3000 7500
 Wire Wire Line
@@ -699,9 +691,9 @@ F 3 "" H 2600 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 1350 5850 0    50   Input ~ 0
-SCL
+SCL0
 Text GLabel 1350 5950 0    50   Input ~ 0
-SDA
+SDA0
 Wire Wire Line
 	1350 5950 1400 5950
 Wire Wire Line
@@ -829,9 +821,9 @@ F 3 "" H 5700 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 4450 6100 0    50   Input ~ 0
-SCL
+SCL0
 Text GLabel 4450 6200 0    50   Input ~ 0
-SDA
+SDA0
 Wire Wire Line
 	4450 6200 4500 6200
 Wire Wire Line
@@ -1187,13 +1179,7 @@ Wire Wire Line
 	7550 3700 7700 3700
 Connection ~ 7100 3750
 Wire Wire Line
-	11300 2550 12150 2550
-Connection ~ 11300 2550
-Wire Wire Line
-	11000 2650 12200 2650
-Wire Wire Line
 	15800 3700 15800 4050
-Connection ~ 11000 2650
 Text GLabel 17300 3000 2    50   Input ~ 0
 EN1
 Text GLabel 17300 4500 2    50   Input ~ 0
@@ -1767,9 +1753,9 @@ Connection ~ 4150 1400
 Wire Wire Line
 	4150 1200 4300 1200
 Text GLabel 4300 1750 0    50   Input ~ 0
-SCL
+SCL1
 Text GLabel 4300 1650 0    50   Input ~ 0
-SDA
+SDA1
 Wire Wire Line
 	4300 1950 4250 1950
 Wire Wire Line
@@ -2340,4 +2326,64 @@ Text GLabel 10200 2200 2    50   Input ~ 0
 GATE1
 Text GLabel 10200 2100 2    50   Input ~ 0
 GATE0
+Wire Wire Line
+	10600 2500 10600 2450
+Wire Wire Line
+	10200 2500 10600 2500
+Wire Wire Line
+	10700 2600 10700 2450
+Wire Wire Line
+	10200 2600 10700 2600
+Wire Wire Line
+	10600 2500 11000 2500
+Connection ~ 10600 2500
+Wire Wire Line
+	10700 2600 11300 2600
+Wire Wire Line
+	11300 2600 11300 2500
+Connection ~ 10700 2600
+Wire Wire Line
+	10200 2700 10600 2700
+Wire Wire Line
+	10200 2800 10700 2800
+Text GLabel 10600 2850 3    50   Input ~ 0
+SDA1
+Wire Wire Line
+	10600 2700 10600 2850
+Connection ~ 10600 2700
+Wire Wire Line
+	10600 2700 11000 2700
+Text GLabel 10700 2850 3    50   Input ~ 0
+SCL1
+Wire Wire Line
+	10700 2800 10700 2850
+Connection ~ 10700 2800
+Wire Wire Line
+	10700 2800 11300 2800
+$Comp
+L Device:R R?
+U 1 1 6344B20A
+P 11000 3000
+F 0 "R?" H 11070 3046 50  0000 L CNN
+F 1 "4.7k" H 11070 2955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10930 3000 50  0001 C CNN
+F 3 "~" H 11000 3000 50  0001 C CNN
+	1    11000 3000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	11000 2700 11000 2850
+$Comp
+L Device:R R?
+U 1 1 6345F002
+P 11300 3000
+F 0 "R?" H 11370 3046 50  0000 L CNN
+F 1 "4.7k" H 11370 2955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 11230 3000 50  0001 C CNN
+F 3 "~" H 11300 3000 50  0001 C CNN
+	1    11300 3000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	11300 2800 11300 2850
 $EndSCHEMATC
