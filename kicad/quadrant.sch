@@ -2272,4 +2272,72 @@ F 3 "~" H 2700 2150 50  0001 C CNN
 	1    2700 2150
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 633063F0
+P 3400 3550
+F 0 "#PWR?" H 3400 3300 50  0001 C CNN
+F 1 "GND" H 3405 3377 50  0000 C CNN
+F 2 "" H 3400 3550 50  0001 C CNN
+F 3 "" H 3400 3550 50  0001 C CNN
+	1    3400 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6330696C
+P 800 4550
+F 0 "#PWR?" H 800 4300 50  0001 C CNN
+F 1 "GND" H 805 4377 50  0000 C CNN
+F 2 "" H 800 4550 50  0001 C CNN
+F 3 "" H 800 4550 50  0001 C CNN
+	1    800  4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 63306D08
+P 850 7150
+F 0 "#PWR?" H 850 6900 50  0001 C CNN
+F 1 "GND" H 855 6977 50  0000 C CNN
+F 2 "" H 850 7150 50  0001 C CNN
+F 3 "" H 850 7150 50  0001 C CNN
+	1    850  7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6330720F
+P 5250 5250
+F 0 "#PWR?" H 5250 5000 50  0001 C CNN
+F 1 "GND" H 5255 5077 50  0000 C CNN
+F 2 "" H 5250 5250 50  0001 C CNN
+F 3 "" H 5250 5250 50  0001 C CNN
+	1    5250 5250
+	1    0    0    -1  
+$EndComp
+Text GLabel 3600 3250 2    50   Input ~ 0
+DAC0
+Text GLabel 1000 4250 2    50   Input ~ 0
+DAC1
+Text GLabel 5450 4950 2    50   Input ~ 0
+DAC2
+Text GLabel 1050 6850 2    50   Input ~ 0
+DAC3
+Text GLabel 1050 6750 2    50   Input ~ 0
+GATE3
+Text GLabel 5450 4850 2    50   Input ~ 0
+GATE2
+Text GLabel 1000 4150 2    50   Input ~ 0
+GATE1
+Text GLabel 3600 3150 2    50   Input ~ 0
+GATE0
+Text GLabel 10200 2400 2    50   Input ~ 0
+GATE3
+Text GLabel 10200 2300 2    50   Input ~ 0
+GATE2
+Text GLabel 10200 2200 2    50   Input ~ 0
+GATE1
+Text GLabel 10200 2100 2    50   Input ~ 0
+GATE0
 $EndSCHEMATC

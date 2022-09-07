@@ -1854,8 +1854,6 @@ F 3 "" H 5800 1050 50  0001 C CNN
 	1    5800 1050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5800 850  5900 850 
 Connection ~ 5800 850 
 Connection ~ 6650 3600
 $Comp
@@ -1925,8 +1923,6 @@ F 3 "" H 5800 1500 50  0001 C CNN
 	1    5800 1500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5800 1300 5900 1300
 Connection ~ 5800 1300
 $Comp
 L Device:R R22
@@ -1995,8 +1991,6 @@ F 3 "" H 5800 2000 50  0001 C CNN
 	1    5800 2000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5800 1800 5900 1800
 Connection ~ 5800 1800
 $Comp
 L Device:R R23
@@ -2065,16 +2059,14 @@ F 3 "" H 5800 2500 50  0001 C CNN
 	1    5800 2500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5800 2300 5900 2300
 Connection ~ 5800 2300
-Text GLabel 5900 850  2    50   Input ~ 0
+Text GLabel 7100 950  2    50   Input ~ 0
 DAC0
-Text GLabel 5900 1300 2    50   Input ~ 0
+Text GLabel 7100 1400 2    50   Input ~ 0
 DAC1
-Text GLabel 5900 1800 2    50   Input ~ 0
+Text GLabel 7100 1900 2    50   Input ~ 0
 DAC2
-Text GLabel 5900 2300 2    50   Input ~ 0
+Text GLabel 7100 2400 2    50   Input ~ 0
 DAC3
 Wire Wire Line
 	4250 2050 4250 2300
@@ -2170,4 +2162,114 @@ Wire Wire Line
 	6050 7000 6050 7300
 Wire Wire Line
 	5700 7200 5700 6900
+$Comp
+L Device:Opamp_Quad_Generic U?
+U 1 1 6321C2EF
+P 6650 950
+F 0 "U?" H 6650 950 50  0000 C CNN
+F 1 "TSV994IPT" H 6850 650 50  0000 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 6650 950 50  0001 C CNN
+F 3 "~" H 6650 950 50  0001 C CNN
+	1    6650 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Opamp_Quad_Generic U?
+U 2 1 6321D1D6
+P 6650 1400
+F 0 "U?" H 6650 1400 50  0000 C CNN
+F 1 "TSV994IPT" H 6850 2000 50  0000 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 6650 1400 50  0001 C CNN
+F 3 "~" H 6650 1400 50  0001 C CNN
+	2    6650 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Opamp_Quad_Generic U?
+U 3 1 6321EC13
+P 6650 1900
+F 0 "U?" H 6650 1900 50  0000 C CNN
+F 1 "TSV994IPT" H 6850 2050 50  0000 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 6650 1900 50  0001 C CNN
+F 3 "~" H 6650 1900 50  0001 C CNN
+	3    6650 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Opamp_Quad_Generic U?
+U 4 1 63220341
+P 6650 2400
+F 0 "U?" H 6650 2400 50  0000 C CNN
+F 1 "TSV994IPT" H 6850 2550 50  0000 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 6650 2400 50  0001 C CNN
+F 3 "~" H 6650 2400 50  0001 C CNN
+	4    6650 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Opamp_Quad_Generic U?
+U 5 1 63221C24
+P 3100 2150
+F 0 "U?" H 3058 2196 50  0000 L CNN
+F 1 "TSV994IPT" H 3058 2105 50  0000 L CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 3100 2150 50  0001 C CNN
+F 3 "~" H 3100 2150 50  0001 C CNN
+	5    3100 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 1050 6350 1150
+Wire Wire Line
+	6350 1150 6950 1150
+Wire Wire Line
+	6950 1150 6950 950 
+Wire Wire Line
+	6350 1500 6350 1650
+Wire Wire Line
+	6350 1650 6950 1650
+Wire Wire Line
+	6950 1650 6950 1400
+Wire Wire Line
+	6350 2000 6350 2150
+Wire Wire Line
+	6350 2150 6950 2150
+Wire Wire Line
+	6950 2150 6950 1900
+Wire Wire Line
+	6350 2500 6350 2650
+Wire Wire Line
+	6350 2650 6950 2650
+Wire Wire Line
+	6950 2650 6950 2400
+Wire Wire Line
+	5800 2300 6350 2300
+Wire Wire Line
+	5800 1800 6350 1800
+Wire Wire Line
+	5800 1300 6350 1300
+Wire Wire Line
+	5800 850  6350 850 
+Wire Wire Line
+	6950 950  7100 950 
+Connection ~ 6950 950 
+Wire Wire Line
+	6950 1400 7100 1400
+Connection ~ 6950 1400
+Wire Wire Line
+	6950 1900 7100 1900
+Connection ~ 6950 1900
+Wire Wire Line
+	6950 2400 7100 2400
+Connection ~ 6950 2400
+$Comp
+L Device:C C?
+U 1 1 632FF9D0
+P 2700 2150
+F 0 "C?" H 2815 2196 50  0000 L CNN
+F 1 "1uF" H 2815 2105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2738 2000 50  0001 C CNN
+F 3 "~" H 2700 2150 50  0001 C CNN
+	1    2700 2150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
