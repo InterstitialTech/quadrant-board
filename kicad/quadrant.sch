@@ -1274,17 +1274,6 @@ F 3 "~" H 6150 6900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0110
-U 1 1 63019471
-P 5750 7050
-F 0 "#PWR0110" H 5750 6800 50  0001 C CNN
-F 1 "GND" H 5650 7050 50  0000 C CNN
-F 2 "" H 5750 7050 50  0001 C CNN
-F 3 "" H 5750 7050 50  0001 C CNN
-	1    5750 7050
-	-1   0    0    1   
-$EndComp
-$Comp
 L Device:R_Small_US R17
 U 1 1 63007DA2
 P 6150 7000
@@ -1515,17 +1504,6 @@ Wire Wire Line
 Text GLabel 6650 7250 2    50   Input ~ 0
 MIDIO
 $Comp
-L Connector:DIN-5_180degree J7
-U 1 1 6326D54B
-P 5750 7350
-F 0 "J7" H 5750 7075 50  0000 C CNN
-F 1 "DIN-5_180degree" H 5750 6984 50  0000 C CNN
-F 2 "quadrant:SDS-50J" H 5750 7350 50  0001 C CNN
-F 3 "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf" H 5750 7350 50  0001 C CNN
-	1    5750 7350
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:Q_NMOS_GDS Q1
 U 1 1 63227A08
 P 6450 7250
@@ -1537,11 +1515,7 @@ F 3 "~" H 6450 7250 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	5450 7250 5450 6900
-Wire Wire Line
-	5450 6900 6050 6900
-Wire Wire Line
-	6050 7250 6050 7000
+	5700 6900 6050 6900
 Wire Wire Line
 	9350 950  9750 950 
 Wire Wire Line
@@ -1728,17 +1702,6 @@ F 3 "" H 8200 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR0121
-U 1 1 63262CC6
-P 4150 800
-F 0 "#PWR0121" H 4150 650 50  0001 C CNN
-F 1 "+3V3" H 4250 900 50  0000 C CNN
-F 2 "" H 4150 800 50  0001 C CNN
-F 3 "" H 4150 800 50  0001 C CNN
-	1    4150 800 
-	1    0    0    -1  
-$EndComp
-$Comp
 L quadrant:DS3911 U5
 U 1 1 63281C59
 P 4900 1300
@@ -1773,7 +1736,6 @@ F 3 "" H 4150 1000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4150 800  4300 800 
-Connection ~ 4150 800 
 Wire Wire Line
 	4300 1000 4150 1000
 Connection ~ 4150 1000
@@ -1786,17 +1748,6 @@ F 1 "0.1uF" H 3850 1250 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 4150 1300 50  0001 C CNN
 F 3 "~" H 4150 1300 50  0001 C CNN
 	1    4150 1300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR0123
-U 1 1 632DF830
-P 4150 1200
-F 0 "#PWR0123" H 4150 1050 50  0001 C CNN
-F 1 "+3V3" H 4000 1250 50  0000 C CNN
-F 2 "" H 4150 1200 50  0001 C CNN
-F 3 "" H 4150 1200 50  0001 C CNN
-	1    4150 1200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1815,7 +1766,6 @@ Wire Wire Line
 Connection ~ 4150 1400
 Wire Wire Line
 	4150 1200 4300 1200
-Connection ~ 4150 1200
 Text GLabel 4300 1750 0    50   Input ~ 0
 SCL
 Text GLabel 4300 1650 0    50   Input ~ 0
@@ -1904,8 +1854,6 @@ F 3 "" H 5800 1050 50  0001 C CNN
 	1    5800 1050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5800 850  5900 850 
 Connection ~ 5800 850 
 Connection ~ 6650 3600
 $Comp
@@ -1975,8 +1923,6 @@ F 3 "" H 5800 1500 50  0001 C CNN
 	1    5800 1500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5800 1300 5900 1300
 Connection ~ 5800 1300
 $Comp
 L Device:R R22
@@ -2045,8 +1991,6 @@ F 3 "" H 5800 2000 50  0001 C CNN
 	1    5800 2000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5800 1800 5900 1800
 Connection ~ 5800 1800
 $Comp
 L Device:R R23
@@ -2115,16 +2059,14 @@ F 3 "" H 5800 2500 50  0001 C CNN
 	1    5800 2500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5800 2300 5900 2300
 Connection ~ 5800 2300
-Text GLabel 5900 850  2    50   Input ~ 0
+Text GLabel 7100 950  2    50   Input ~ 0
 DAC0
-Text GLabel 5900 1300 2    50   Input ~ 0
+Text GLabel 7100 1400 2    50   Input ~ 0
 DAC1
-Text GLabel 5900 1800 2    50   Input ~ 0
+Text GLabel 7100 1900 2    50   Input ~ 0
 DAC2
-Text GLabel 5900 2300 2    50   Input ~ 0
+Text GLabel 7100 2400 2    50   Input ~ 0
 DAC3
 Wire Wire Line
 	4250 2050 4250 2300
@@ -2186,6 +2128,148 @@ F 4 "ST Microelectronics" H 1800 5750 50  0001 L BNN "MANUFACTURER"
 F 5 "Manufacturer Recommendation" H 1800 5750 50  0001 L BNN "STANDARD"
 F 6 "1.0" H 1800 5750 50  0001 L BNN "PART_REV"
 	1    1800 5750
+	1    0    0    -1  
+$EndComp
+Text GLabel 4150 800  1    50   Input ~ 0
+USB5V
+Text GLabel 4150 1200 0    50   Input ~ 0
+USB5V
+$Comp
+L Connector:AudioJack2_Ground_SwitchT J?
+U 1 1 631C686D
+P 5500 7300
+F 0 "J?" H 5532 7625 50  0000 C CNN
+F 1 "AudioJack2_Ground_SwitchT" H 5532 7534 50  0000 C CNN
+F 2 "quadrant:sj-352x-smt" H 5500 7300 50  0001 C CNN
+F 3 "~" H 5500 7300 50  0001 C CNN
+	1    5500 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 631C70B7
+P 5500 7600
+F 0 "#PWR?" H 5500 7350 50  0001 C CNN
+F 1 "GND" H 5400 7600 50  0000 C CNN
+F 2 "" H 5500 7600 50  0001 C CNN
+F 3 "" H 5500 7600 50  0001 C CNN
+	1    5500 7600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 7300 5700 7300
+Wire Wire Line
+	6050 7000 6050 7300
+Wire Wire Line
+	5700 7200 5700 6900
+$Comp
+L Device:Opamp_Quad_Generic U?
+U 1 1 6321C2EF
+P 6650 950
+F 0 "U?" H 6650 950 50  0000 C CNN
+F 1 "TSV994IPT" H 6850 650 50  0000 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 6650 950 50  0001 C CNN
+F 3 "~" H 6650 950 50  0001 C CNN
+	1    6650 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Opamp_Quad_Generic U?
+U 2 1 6321D1D6
+P 6650 1400
+F 0 "U?" H 6650 1400 50  0000 C CNN
+F 1 "TSV994IPT" H 6850 2000 50  0000 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 6650 1400 50  0001 C CNN
+F 3 "~" H 6650 1400 50  0001 C CNN
+	2    6650 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Opamp_Quad_Generic U?
+U 3 1 6321EC13
+P 6650 1900
+F 0 "U?" H 6650 1900 50  0000 C CNN
+F 1 "TSV994IPT" H 6850 2050 50  0000 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 6650 1900 50  0001 C CNN
+F 3 "~" H 6650 1900 50  0001 C CNN
+	3    6650 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Opamp_Quad_Generic U?
+U 4 1 63220341
+P 6650 2400
+F 0 "U?" H 6650 2400 50  0000 C CNN
+F 1 "TSV994IPT" H 6850 2550 50  0000 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 6650 2400 50  0001 C CNN
+F 3 "~" H 6650 2400 50  0001 C CNN
+	4    6650 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Opamp_Quad_Generic U?
+U 5 1 63221C24
+P 3100 2150
+F 0 "U?" H 3058 2196 50  0000 L CNN
+F 1 "TSV994IPT" H 3058 2105 50  0000 L CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 3100 2150 50  0001 C CNN
+F 3 "~" H 3100 2150 50  0001 C CNN
+	5    3100 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 1050 6350 1150
+Wire Wire Line
+	6350 1150 6950 1150
+Wire Wire Line
+	6950 1150 6950 950 
+Wire Wire Line
+	6350 1500 6350 1650
+Wire Wire Line
+	6350 1650 6950 1650
+Wire Wire Line
+	6950 1650 6950 1400
+Wire Wire Line
+	6350 2000 6350 2150
+Wire Wire Line
+	6350 2150 6950 2150
+Wire Wire Line
+	6950 2150 6950 1900
+Wire Wire Line
+	6350 2500 6350 2650
+Wire Wire Line
+	6350 2650 6950 2650
+Wire Wire Line
+	6950 2650 6950 2400
+Wire Wire Line
+	5800 2300 6350 2300
+Wire Wire Line
+	5800 1800 6350 1800
+Wire Wire Line
+	5800 1300 6350 1300
+Wire Wire Line
+	5800 850  6350 850 
+Wire Wire Line
+	6950 950  7100 950 
+Connection ~ 6950 950 
+Wire Wire Line
+	6950 1400 7100 1400
+Connection ~ 6950 1400
+Wire Wire Line
+	6950 1900 7100 1900
+Connection ~ 6950 1900
+Wire Wire Line
+	6950 2400 7100 2400
+Connection ~ 6950 2400
+$Comp
+L Device:C C?
+U 1 1 632FF9D0
+P 2700 2150
+F 0 "C?" H 2815 2196 50  0000 L CNN
+F 1 "1uF" H 2815 2105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2738 2000 50  0001 C CNN
+F 3 "~" H 2700 2150 50  0001 C CNN
+	1    2700 2150
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
