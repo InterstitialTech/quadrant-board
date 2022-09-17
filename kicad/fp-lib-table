@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name quadrant)(type KiCad)(uri ${KIPRJMOD}/quadrant.pretty)(options "")(descr ""))
+  (lib (name automato-sensor)(type KiCad)(uri C:/Users/muffin/Documents/GitHub/automato-sensor/kicad/automato-sensor.pretty)(options "")(descr ""))
 )
