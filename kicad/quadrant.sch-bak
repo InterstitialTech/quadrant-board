@@ -2038,7 +2038,7 @@ F 6 "1.0" H 1800 5750 50  0001 L BNN "PART_REV"
 $EndComp
 Text GLabel 4300 800  1    50   Input ~ 0
 USB5V
-Text GLabel 4300 1200 0    50   Input ~ 0
+Text GLabel 4150 1150 0    50   Input ~ 0
 4v8
 $Comp
 L Connector:AudioJack2_Ground_SwitchT J?
@@ -2589,9 +2589,10 @@ L quadrant:TCR2EE U?
 U 1 1 6364FF55
 P 3450 1900
 F 0 "U?" H 3200 2100 50  0000 C CNN
-F 1 "TCR2EE" H 3400 1700 50  0000 C CNN
-F 2 "" H 3450 1900 50  0001 C CNN
+F 1 "TCR2EE48" H 3400 1700 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-553" H 3450 1900 50  0001 C CNN
 F 3 "" H 3450 1900 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/TCR2EE48-LM/5114341" H 3450 1900 50  0001 C CNN "digikey"
 	1    3450 1900
 	1    0    0    -1  
 $EndComp
@@ -2674,4 +2675,11 @@ Wire Wire Line
 Wire Wire Line
 	4000 1850 3850 1850
 Connection ~ 4000 1850
+Wire Wire Line
+	4150 1150 4200 1150
+Wire Wire Line
+	4200 1150 4200 1200
+Wire Wire Line
+	4200 1200 4300 1200
+Connection ~ 4300 1200
 $EndSCHEMATC

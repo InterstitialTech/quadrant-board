@@ -2036,9 +2036,9 @@ F 6 "1.0" H 1800 5750 50  0001 L BNN "PART_REV"
 	1    1800 5750
 	1    0    0    -1  
 $EndComp
-Text GLabel 4300 800  1    50   Input ~ 0
+Text GLabel 4250 750  0    50   Input ~ 0
 USB5V
-Text GLabel 4300 1200 0    50   Input ~ 0
+Text GLabel 4150 1150 0    50   Input ~ 0
 4v8
 $Comp
 L Connector:AudioJack2_Ground_SwitchT J?
@@ -2675,4 +2675,16 @@ Wire Wire Line
 Wire Wire Line
 	4000 1850 3850 1850
 Connection ~ 4000 1850
+Wire Wire Line
+	4150 1150 4200 1150
+Wire Wire Line
+	4200 1150 4200 1200
+Wire Wire Line
+	4200 1200 4300 1200
+Connection ~ 4300 1200
+Wire Wire Line
+	4250 750  4300 750 
+Wire Wire Line
+	4300 750  4300 800 
+Connection ~ 4300 800 
 $EndSCHEMATC
