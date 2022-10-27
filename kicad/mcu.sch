@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 5
+Sheet 5 5
 Title ""
 Date ""
 Rev ""
@@ -862,8 +862,6 @@ Wire Wire Line
 	6900 5200 7900 5200
 Text HLabel 1000 1700 0    50   Input ~ 0
 +3V3
-Text HLabel 1000 2000 0    50   Input ~ 0
-+2V8
 Text HLabel 1000 2300 0    50   Input ~ 0
 EN1
 Text HLabel 1000 2450 0    50   Input ~ 0
@@ -895,20 +893,6 @@ SDA0
 Text HLabel 950  5100 0    50   Input ~ 0
 GND
 $Comp
-L power:+2V8 #PWR?
-U 1 1 63CFFC3A
-P 1100 2000
-AR Path="/63CFFC3A" Ref="#PWR?"  Part="1" 
-AR Path="/63920F76/63CFFC3A" Ref="#PWR?"  Part="1" 
-AR Path="/63921D71/63CFFC3A" Ref="#PWR059"  Part="1" 
-F 0 "#PWR059" H 1100 1850 50  0001 C CNN
-F 1 "+2V8" H 1115 2173 50  0000 C CNN
-F 2 "" H 1100 2000 50  0001 C CNN
-F 3 "" H 1100 2000 50  0001 C CNN
-	1    1100 2000
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 63CFFC40
 P 1050 5100
@@ -922,8 +906,6 @@ F 3 "" H 1050 5100 50  0001 C CNN
 	1    1050 5100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1000 2000 1100 2000
 Wire Wire Line
 	950  5100 1050 5100
 Text GLabel 1000 4100 2    50   Input ~ 0
