@@ -17,6 +17,8 @@ $Comp
 L power:GND #PWR?
 U 1 1 63C0EED5
 P 6450 3000
+AR Path="/63C0EED5" Ref="#PWR?"  Part="1" 
+AR Path="/63920F76/63C0EED5" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 6450 2750 50  0001 C CNN
 F 1 "GND" H 6455 2827 50  0000 C CNN
 F 2 "" H 6450 3000 50  0001 C CNN
@@ -28,6 +30,8 @@ $Comp
 L Device:C C?
 U 1 1 63C0EEDB
 P 6900 2650
+AR Path="/63C0EEDB" Ref="C?"  Part="1" 
+AR Path="/63920F76/63C0EEDB" Ref="C?"  Part="1" 
 F 0 "C?" V 6648 2650 50  0000 C CNN
 F 1 "0.1uF" V 6739 2650 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6938 2500 50  0001 C CNN
@@ -39,6 +43,8 @@ $Comp
 L power:GND #PWR?
 U 1 1 63C0EEE1
 P 7050 3000
+AR Path="/63C0EEE1" Ref="#PWR?"  Part="1" 
+AR Path="/63920F76/63C0EEE1" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 7050 2750 50  0001 C CNN
 F 1 "GND" H 7055 2827 50  0000 C CNN
 F 2 "" H 7050 3000 50  0001 C CNN
@@ -50,6 +56,8 @@ $Comp
 L power:+2V8 #PWR?
 U 1 1 63C0EEE7
 P 6600 2350
+AR Path="/63C0EEE7" Ref="#PWR?"  Part="1" 
+AR Path="/63920F76/63C0EEE7" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 6600 2200 50  0001 C CNN
 F 1 "+2V8" H 6615 2523 50  0000 C CNN
 F 2 "" H 6600 2350 50  0001 C CNN
@@ -80,6 +88,8 @@ $Comp
 L Device:R R?
 U 1 1 63C0EEF7
 P 4850 2300
+AR Path="/63C0EEF7" Ref="R?"  Part="1" 
+AR Path="/63920F76/63C0EEF7" Ref="R?"  Part="1" 
 F 0 "R?" H 4920 2346 50  0000 L CNN
 F 1 "47k" H 4920 2255 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4780 2300 50  0001 C CNN
@@ -91,6 +101,8 @@ $Comp
 L power:+2V8 #PWR?
 U 1 1 63C0EEFD
 P 5150 2150
+AR Path="/63C0EEFD" Ref="#PWR?"  Part="1" 
+AR Path="/63920F76/63C0EEFD" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 5150 2000 50  0001 C CNN
 F 1 "+2V8" H 5165 2323 50  0000 C CNN
 F 2 "" H 5150 2150 50  0001 C CNN
@@ -102,6 +114,8 @@ $Comp
 L Device:R R?
 U 1 1 63C0EF03
 P 5150 2300
+AR Path="/63C0EF03" Ref="R?"  Part="1" 
+AR Path="/63920F76/63C0EF03" Ref="R?"  Part="1" 
 F 0 "R?" H 5220 2346 50  0000 L CNN
 F 1 "47k" H 5220 2255 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5080 2300 50  0001 C CNN
@@ -119,6 +133,8 @@ $Comp
 L Device:C C?
 U 1 1 63C0EF0C
 P 6750 2850
+AR Path="/63C0EF0C" Ref="C?"  Part="1" 
+AR Path="/63920F76/63C0EF0C" Ref="C?"  Part="1" 
 F 0 "C?" V 6900 2850 50  0000 C CNN
 F 1 "4.7uF" V 7000 2850 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6788 2700 50  0001 C CNN
@@ -147,6 +163,8 @@ $Comp
 L power:GND #PWR?
 U 1 1 63C0EF1C
 P 4850 4300
+AR Path="/63C0EF1C" Ref="#PWR?"  Part="1" 
+AR Path="/63920F76/63C0EF1C" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 4850 4050 50  0001 C CNN
 F 1 "GND" H 4855 4127 50  0000 C CNN
 F 2 "" H 4850 4300 50  0001 C CNN
@@ -158,6 +176,8 @@ $Comp
 L Device:C C?
 U 1 1 63C0EF22
 P 5300 3950
+AR Path="/63C0EF22" Ref="C?"  Part="1" 
+AR Path="/63920F76/63C0EF22" Ref="C?"  Part="1" 
 F 0 "C?" V 5048 3950 50  0000 C CNN
 F 1 "0.1uF" V 5139 3950 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5338 3800 50  0001 C CNN
@@ -169,6 +189,8 @@ $Comp
 L power:GND #PWR?
 U 1 1 63C0EF28
 P 5450 4300
+AR Path="/63C0EF28" Ref="#PWR?"  Part="1" 
+AR Path="/63920F76/63C0EF28" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 5450 4050 50  0001 C CNN
 F 1 "GND" H 5455 4127 50  0000 C CNN
 F 2 "" H 5450 4300 50  0001 C CNN
@@ -180,6 +202,8 @@ $Comp
 L power:+2V8 #PWR?
 U 1 1 63C0EF2E
 P 5000 3650
+AR Path="/63C0EF2E" Ref="#PWR?"  Part="1" 
+AR Path="/63920F76/63C0EF2E" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 5000 3500 50  0001 C CNN
 F 1 "+2V8" H 5015 3823 50  0000 C CNN
 F 2 "" H 5000 3650 50  0001 C CNN
@@ -210,6 +234,8 @@ $Comp
 L Device:R R?
 U 1 1 63C0EF3E
 P 3250 3600
+AR Path="/63C0EF3E" Ref="R?"  Part="1" 
+AR Path="/63920F76/63C0EF3E" Ref="R?"  Part="1" 
 F 0 "R?" H 3320 3646 50  0000 L CNN
 F 1 "47k" H 3320 3555 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3180 3600 50  0001 C CNN
@@ -221,6 +247,8 @@ $Comp
 L power:+2V8 #PWR?
 U 1 1 63C0EF44
 P 3550 3450
+AR Path="/63C0EF44" Ref="#PWR?"  Part="1" 
+AR Path="/63920F76/63C0EF44" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 3550 3300 50  0001 C CNN
 F 1 "+2V8" H 3565 3623 50  0000 C CNN
 F 2 "" H 3550 3450 50  0001 C CNN
@@ -232,6 +260,8 @@ $Comp
 L Device:R R?
 U 1 1 63C0EF4A
 P 3550 3600
+AR Path="/63C0EF4A" Ref="R?"  Part="1" 
+AR Path="/63920F76/63C0EF4A" Ref="R?"  Part="1" 
 F 0 "R?" H 3620 3646 50  0000 L CNN
 F 1 "47k" H 3620 3555 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3480 3600 50  0001 C CNN
@@ -249,6 +279,8 @@ $Comp
 L Device:C C?
 U 1 1 63C0EF53
 P 5150 4150
+AR Path="/63C0EF53" Ref="C?"  Part="1" 
+AR Path="/63920F76/63C0EF53" Ref="C?"  Part="1" 
 F 0 "C?" V 5300 4150 50  0000 C CNN
 F 1 "4.7uF" V 5400 4150 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5188 4000 50  0001 C CNN
@@ -277,6 +309,8 @@ $Comp
 L power:GND #PWR?
 U 1 1 63C0EF63
 P 7950 4350
+AR Path="/63C0EF63" Ref="#PWR?"  Part="1" 
+AR Path="/63920F76/63C0EF63" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 7950 4100 50  0001 C CNN
 F 1 "GND" H 7955 4177 50  0000 C CNN
 F 2 "" H 7950 4350 50  0001 C CNN
@@ -288,6 +322,8 @@ $Comp
 L Device:C C?
 U 1 1 63C0EF69
 P 8400 4000
+AR Path="/63C0EF69" Ref="C?"  Part="1" 
+AR Path="/63920F76/63C0EF69" Ref="C?"  Part="1" 
 F 0 "C?" V 8148 4000 50  0000 C CNN
 F 1 "0.1uF" V 8239 4000 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8438 3850 50  0001 C CNN
@@ -299,6 +335,8 @@ $Comp
 L power:GND #PWR?
 U 1 1 63C0EF6F
 P 8550 4350
+AR Path="/63C0EF6F" Ref="#PWR?"  Part="1" 
+AR Path="/63920F76/63C0EF6F" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 8550 4100 50  0001 C CNN
 F 1 "GND" H 8555 4177 50  0000 C CNN
 F 2 "" H 8550 4350 50  0001 C CNN
@@ -310,6 +348,8 @@ $Comp
 L power:+2V8 #PWR?
 U 1 1 63C0EF75
 P 8100 3700
+AR Path="/63C0EF75" Ref="#PWR?"  Part="1" 
+AR Path="/63920F76/63C0EF75" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 8100 3550 50  0001 C CNN
 F 1 "+2V8" H 8115 3873 50  0000 C CNN
 F 2 "" H 8100 3700 50  0001 C CNN
@@ -340,6 +380,8 @@ $Comp
 L Device:R R?
 U 1 1 63C0EF85
 P 6350 3650
+AR Path="/63C0EF85" Ref="R?"  Part="1" 
+AR Path="/63920F76/63C0EF85" Ref="R?"  Part="1" 
 F 0 "R?" H 6420 3696 50  0000 L CNN
 F 1 "47k" H 6420 3605 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6280 3650 50  0001 C CNN
@@ -353,6 +395,8 @@ $Comp
 L Device:C C?
 U 1 1 63C0EF8C
 P 8250 4200
+AR Path="/63C0EF8C" Ref="C?"  Part="1" 
+AR Path="/63920F76/63C0EF8C" Ref="C?"  Part="1" 
 F 0 "C?" V 8400 4200 50  0000 C CNN
 F 1 "4.7uF" V 8500 4200 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8288 4050 50  0001 C CNN
@@ -399,6 +443,8 @@ $Comp
 L Connector:AudioJack2_Ground_SwitchT J?
 U 1 1 63C0EFA5
 P 9150 4050
+AR Path="/63C0EFA5" Ref="J?"  Part="1" 
+AR Path="/63920F76/63C0EFA5" Ref="J?"  Part="1" 
 F 0 "J?" H 9182 4375 50  0000 C CNN
 F 1 "AudioJack2_Ground_SwitchT" H 9182 4284 50  0000 C CNN
 F 2 "quadrant:sj-352x-smt" H 9150 4050 50  0001 C CNN
@@ -408,19 +454,10 @@ F 3 "~" H 9150 4050 50  0001 C CNN
 $EndComp
 $Comp
 L Connector:AudioJack2_Ground_SwitchT J?
-U 1 1 63C0EFAB
-P 5500 1650
-F 0 "J?" H 5532 1975 50  0000 C CNN
-F 1 "AudioJack2_Ground_SwitchT" H 5532 1884 50  0000 C CNN
-F 2 "quadrant:sj-352x-smt" H 5500 1650 50  0001 C CNN
-F 3 "~" H 5500 1650 50  0001 C CNN
-	1    5500 1650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:AudioJack2_Ground_SwitchT J?
 U 1 1 63C0EFB1
 P 5850 6100
+AR Path="/63C0EFB1" Ref="J?"  Part="1" 
+AR Path="/63920F76/63C0EFB1" Ref="J?"  Part="1" 
 F 0 "J?" H 5882 6425 50  0000 C CNN
 F 1 "AudioJack2_Ground_SwitchT" H 5882 6334 50  0000 C CNN
 F 2 "quadrant:sj-352x-smt" H 5850 6100 50  0001 C CNN
@@ -432,6 +469,8 @@ $Comp
 L quadrant:VL53L0X U?
 U 1 1 63C0EFBA
 P 5800 2750
+AR Path="/63C0EFBA" Ref="U?"  Part="1" 
+AR Path="/63920F76/63C0EFBA" Ref="U?"  Part="1" 
 F 0 "U?" H 5800 3265 50  0000 C CNN
 F 1 "VL53L0X" H 5800 3174 50  0000 C CNN
 F 2 "SENSOR_VL53L0X" H 5800 2750 50  0001 L BNN
@@ -446,6 +485,8 @@ $Comp
 L quadrant:VL53L0X U?
 U 1 1 63C0EFC3
 P 4200 4050
+AR Path="/63C0EFC3" Ref="U?"  Part="1" 
+AR Path="/63920F76/63C0EFC3" Ref="U?"  Part="1" 
 F 0 "U?" H 4200 4565 50  0000 C CNN
 F 1 "VL53L0X" H 4200 4474 50  0000 C CNN
 F 2 "SENSOR_VL53L0X" H 4200 4050 50  0001 L BNN
@@ -460,6 +501,8 @@ $Comp
 L power:GND #PWR?
 U 1 1 63C0EFC9
 P 5500 1950
+AR Path="/63C0EFC9" Ref="#PWR?"  Part="1" 
+AR Path="/63920F76/63C0EFC9" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 5500 1700 50  0001 C CNN
 F 1 "GND" H 5505 1777 50  0000 C CNN
 F 2 "" H 5500 1950 50  0001 C CNN
@@ -471,6 +514,8 @@ $Comp
 L power:GND #PWR?
 U 1 1 63C0EFCF
 P 9150 4350
+AR Path="/63C0EFCF" Ref="#PWR?"  Part="1" 
+AR Path="/63920F76/63C0EFCF" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 9150 4100 50  0001 C CNN
 F 1 "GND" H 9155 4177 50  0000 C CNN
 F 2 "" H 9150 4350 50  0001 C CNN
@@ -482,6 +527,8 @@ $Comp
 L power:GND #PWR?
 U 1 1 63C0EFD5
 P 5850 6400
+AR Path="/63C0EFD5" Ref="#PWR?"  Part="1" 
+AR Path="/63920F76/63C0EFD5" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 5850 6150 50  0001 C CNN
 F 1 "GND" H 5855 6227 50  0000 C CNN
 F 2 "" H 5850 6400 50  0001 C CNN
@@ -489,8 +536,6 @@ F 3 "" H 5850 6400 50  0001 C CNN
 	1    5850 6400
 	1    0    0    -1  
 $EndComp
-Text GLabel 5700 1650 2    50   Input ~ 0
-DAC0
 Text GLabel 9350 4050 2    50   Input ~ 0
 DAC1
 Text GLabel 6050 6100 2    50   Input ~ 0
@@ -507,6 +552,8 @@ $Comp
 L quadrant:VL53L0X U?
 U 1 1 63C0EFE5
 P 7300 4100
+AR Path="/63C0EFE5" Ref="U?"  Part="1" 
+AR Path="/63920F76/63C0EFE5" Ref="U?"  Part="1" 
 F 0 "U?" H 7300 4615 50  0000 C CNN
 F 1 "VL53L0X" H 7300 4524 50  0000 C CNN
 F 2 "SENSOR_VL53L0X" H 7300 4100 50  0001 L BNN
@@ -523,6 +570,8 @@ $Comp
 L Device:R R?
 U 1 1 63C0EFEC
 P 6650 3650
+AR Path="/63C0EFEC" Ref="R?"  Part="1" 
+AR Path="/63920F76/63C0EFEC" Ref="R?"  Part="1" 
 F 0 "R?" H 6720 3696 50  0000 L CNN
 F 1 "47k" H 6720 3605 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6580 3650 50  0001 C CNN
@@ -534,6 +583,8 @@ $Comp
 L power:+2V8 #PWR?
 U 1 1 63C0EFF2
 P 6650 3500
+AR Path="/63C0EFF2" Ref="#PWR?"  Part="1" 
+AR Path="/63920F76/63C0EFF2" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 6650 3350 50  0001 C CNN
 F 1 "+2V8" H 6665 3673 50  0000 C CNN
 F 2 "" H 6650 3500 50  0001 C CNN
@@ -549,6 +600,8 @@ $Comp
 L power:GND #PWR?
 U 1 1 63C0EFFA
 P 2550 4300
+AR Path="/63C0EFFA" Ref="#PWR?"  Part="1" 
+AR Path="/63920F76/63C0EFFA" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 2550 4050 50  0001 C CNN
 F 1 "GND" H 2555 4127 50  0000 C CNN
 F 2 "" H 2550 4300 50  0001 C CNN
@@ -560,6 +613,8 @@ $Comp
 L quadrant:VL53L0X U?
 U 1 1 63C0F003
 P 5850 5400
+AR Path="/63C0F003" Ref="U?"  Part="1" 
+AR Path="/63920F76/63C0F003" Ref="U?"  Part="1" 
 F 0 "U?" H 5850 5915 50  0000 C CNN
 F 1 "VL53L0X" H 5850 5824 50  0000 C CNN
 F 2 "SENSOR_VL53L0X" H 5850 5400 50  0001 L BNN
@@ -574,6 +629,8 @@ $Comp
 L Connector:AudioJack2_Ground_SwitchT J?
 U 1 1 63C0F009
 P 2550 4000
+AR Path="/63C0F009" Ref="J?"  Part="1" 
+AR Path="/63920F76/63C0F009" Ref="J?"  Part="1" 
 F 0 "J?" H 2582 4325 50  0000 C CNN
 F 1 "AudioJack2_Ground_SwitchT" H 2582 4234 50  0000 C CNN
 F 2 "quadrant:sj-352x-smt" H 2550 4000 50  0001 C CNN
@@ -608,6 +665,8 @@ $Comp
 L Device:C C?
 U 1 1 63C0F01C
 P 6800 5500
+AR Path="/63C0F01C" Ref="C?"  Part="1" 
+AR Path="/63920F76/63C0F01C" Ref="C?"  Part="1" 
 F 0 "C?" V 6950 5500 50  0000 C CNN
 F 1 "4.7uF" V 7050 5500 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6838 5350 50  0001 C CNN
@@ -625,6 +684,8 @@ $Comp
 L Device:R R?
 U 1 1 63C0F025
 P 5200 4950
+AR Path="/63C0F025" Ref="R?"  Part="1" 
+AR Path="/63920F76/63C0F025" Ref="R?"  Part="1" 
 F 0 "R?" H 5270 4996 50  0000 L CNN
 F 1 "47k" H 5270 4905 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5130 4950 50  0001 C CNN
@@ -636,6 +697,8 @@ $Comp
 L power:+2V8 #PWR?
 U 1 1 63C0F02B
 P 5200 4800
+AR Path="/63C0F02B" Ref="#PWR?"  Part="1" 
+AR Path="/63920F76/63C0F02B" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 5200 4650 50  0001 C CNN
 F 1 "+2V8" H 5215 4973 50  0000 C CNN
 F 2 "" H 5200 4800 50  0001 C CNN
@@ -647,6 +710,8 @@ $Comp
 L Device:R R?
 U 1 1 63C0F031
 P 4900 4950
+AR Path="/63C0F031" Ref="R?"  Part="1" 
+AR Path="/63920F76/63C0F031" Ref="R?"  Part="1" 
 F 0 "R?" H 4970 4996 50  0000 L CNN
 F 1 "47k" H 4970 4905 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4830 4950 50  0001 C CNN
@@ -677,6 +742,8 @@ $Comp
 L power:+2V8 #PWR?
 U 1 1 63C0F041
 P 6650 4800
+AR Path="/63C0F041" Ref="#PWR?"  Part="1" 
+AR Path="/63920F76/63C0F041" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 6650 4650 50  0001 C CNN
 F 1 "+2V8" H 6665 4973 50  0000 C CNN
 F 2 "" H 6650 4800 50  0001 C CNN
@@ -688,6 +755,8 @@ $Comp
 L power:GND #PWR?
 U 1 1 63C0F047
 P 7100 5650
+AR Path="/63C0F047" Ref="#PWR?"  Part="1" 
+AR Path="/63920F76/63C0F047" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 7100 5400 50  0001 C CNN
 F 1 "GND" H 7105 5477 50  0000 C CNN
 F 2 "" H 7100 5650 50  0001 C CNN
@@ -699,6 +768,8 @@ $Comp
 L Device:C C?
 U 1 1 63C0F04D
 P 6950 5300
+AR Path="/63C0F04D" Ref="C?"  Part="1" 
+AR Path="/63920F76/63C0F04D" Ref="C?"  Part="1" 
 F 0 "C?" V 6698 5300 50  0000 C CNN
 F 1 "0.1uF" V 6789 5300 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6988 5150 50  0001 C CNN
@@ -710,6 +781,8 @@ $Comp
 L power:GND #PWR?
 U 1 1 63C0F053
 P 6500 5650
+AR Path="/63C0F053" Ref="#PWR?"  Part="1" 
+AR Path="/63920F76/63C0F053" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 6500 5400 50  0001 C CNN
 F 1 "GND" H 6505 5477 50  0000 C CNN
 F 2 "" H 6500 5650 50  0001 C CNN
@@ -729,4 +802,97 @@ Text HLabel 1000 1750 0    50   Input ~ 0
 GATE0
 Text HLabel 1000 1150 0    50   Input ~ 0
 EN0
+Text HLabel 1000 1900 0    50   Input ~ 0
+GATE1
+Text HLabel 1000 2050 0    50   Input ~ 0
+GATE2
+Text HLabel 1000 2200 0    50   Input ~ 0
+GATE3
+Text HLabel 1000 2350 0    50   Input ~ 0
+DAC0
+Text HLabel 1000 2500 0    50   Input ~ 0
+DAC1
+Text HLabel 1000 2650 0    50   Input ~ 0
+DAC2
+Text HLabel 1000 2800 0    50   Input ~ 0
+DAC3
+Text HLabel 1000 2950 0    50   Input ~ 0
+SCL0
+Text HLabel 1000 3100 0    50   Input ~ 0
+SDA0
+Text HLabel 1000 3250 0    50   Input ~ 0
+GND
+$Comp
+L power:+2V8 #PWR?
+U 1 1 63C3208E
+P 1100 1000
+AR Path="/63C3208E" Ref="#PWR?"  Part="1" 
+AR Path="/63920F76/63C3208E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1100 850 50  0001 C CNN
+F 1 "+2V8" H 1115 1173 50  0000 C CNN
+F 2 "" H 1100 1000 50  0001 C CNN
+F 3 "" H 1100 1000 50  0001 C CNN
+	1    1100 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 63C32561
+P 1100 3250
+AR Path="/63C32561" Ref="#PWR?"  Part="1" 
+AR Path="/63920F76/63C32561" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1100 3000 50  0001 C CNN
+F 1 "GND" H 1105 3077 50  0000 C CNN
+F 2 "" H 1100 3250 50  0001 C CNN
+F 3 "" H 1100 3250 50  0001 C CNN
+	1    1100 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 1000 1100 1000
+Wire Wire Line
+	1000 3250 1100 3250
+Text GLabel 1000 3100 2    50   Input ~ 0
+SDA0
+Text GLabel 1000 2950 2    50   Input ~ 0
+SCL0
+Text GLabel 1000 2800 2    50   Input ~ 0
+DAC3
+$Comp
+L Connector:AudioJack2_Ground_SwitchT J?
+U 1 1 63C0EFAB
+P 5500 1650
+AR Path="/63C0EFAB" Ref="J?"  Part="1" 
+AR Path="/63920F76/63C0EFAB" Ref="J?"  Part="1" 
+F 0 "J?" H 5532 1975 50  0000 C CNN
+F 1 "AudioJack2_Ground_SwitchT" H 5532 1884 50  0000 C CNN
+F 2 "quadrant:sj-352x-smt" H 5500 1650 50  0001 C CNN
+F 3 "~" H 5500 1650 50  0001 C CNN
+	1    5500 1650
+	1    0    0    -1  
+$EndComp
+Text GLabel 5700 1650 2    50   Input ~ 0
+DAC0
+Text GLabel 1000 2350 2    50   Input ~ 0
+DAC0
+Text GLabel 1000 2500 2    50   Input ~ 0
+DAC1
+Text GLabel 1000 2650 2    50   Input ~ 0
+DAC2
+Text GLabel 1000 2050 2    50   Input ~ 0
+GATE2
+Text GLabel 1000 2200 2    50   Input ~ 0
+GATE3
+Text GLabel 1000 1750 2    50   Input ~ 0
+GATE0
+Text GLabel 1000 1900 2    50   Input ~ 0
+GATE1
+Text GLabel 1000 1150 2    50   Input ~ 0
+EN0
+Text GLabel 1000 1600 2    50   Input ~ 0
+EN3
+Text GLabel 1000 1300 2    50   Input ~ 0
+EN1
+Text GLabel 1000 1450 2    50   Input ~ 0
+EN2
 $EndSCHEMATC
