@@ -651,8 +651,6 @@ Wire Wire Line
 Connection ~ 6650 5300
 Connection ~ 6650 5500
 Wire Wire Line
-	6650 5000 6650 5300
-Wire Wire Line
 	7100 5500 7100 5650
 Connection ~ 7100 5500
 Wire Wire Line
@@ -895,4 +893,6 @@ Text GLabel 1000 1300 2    50   Input ~ 0
 EN1
 Text GLabel 1000 1450 2    50   Input ~ 0
 EN2
+Wire Wire Line
+	6650 4800 6650 5300
 $EndSCHEMATC
