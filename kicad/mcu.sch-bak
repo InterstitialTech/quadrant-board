@@ -61,7 +61,7 @@ AR Path="/63CDFF13" Ref="Y?"  Part="1"
 AR Path="/63921D71/63CDFF13" Ref="Y1"  Part="1" 
 F 0 "Y1" V 3454 4431 50  0000 L CNN
 F 1 "8 MHz" V 3545 4431 50  0000 L CNN
-F 2 "Crystal:Crystal_HC49-U_Vertical" H 3500 4300 50  0001 C CNN
+F 2 "Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm_HandSoldering" H 3500 4300 50  0001 C CNN
 F 3 "~" H 3500 4300 50  0001 C CNN
 	1    3500 4300
 	0    1    1    0   
