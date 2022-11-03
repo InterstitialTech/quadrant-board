@@ -1,4 +1,4 @@
-update=08/21/22 20:03:48
+update=11/2/2022 6:33:21 PM
 version=1
 last_client=kicad
 [general]
@@ -37,7 +37,7 @@ PageLayoutDescrFile=
 PlotDirectoryName=/home/chrono/Dropbox/quadrant/repos/quadrant-board/
 SubpartIdSeparator=0
 SubpartFirstId=65
-NetFmtName=
+NetFmtName=Pcbnew
 SpiceAjustPassiveValues=0
 LabSize=50
 ERC_TestSimilarLabels=1
