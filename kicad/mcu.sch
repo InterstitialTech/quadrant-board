@@ -204,8 +204,8 @@ L Device:LED D?
 U 1 1 63CDFF57
 P 8050 5200
 AR Path="/63CDFF57" Ref="D?"  Part="1" 
-AR Path="/63921D71/63CDFF57" Ref="D4"  Part="1" 
-F 0 "D4" H 8042 4945 50  0000 C CNN
+AR Path="/63921D71/63CDFF57" Ref="D0"  Part="1" 
+F 0 "D0" H 8042 4945 50  0000 C CNN
 F 1 "LED" H 8042 5036 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8050 5200 50  0001 C CNN
 F 3 "~" H 8050 5200 50  0001 C CNN
@@ -659,13 +659,13 @@ F 3 "" H 4450 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 3050 4300
-Text GLabel 6450 3100 2    50   Input ~ 0
+Text GLabel 6450 4200 2    50   Input ~ 0
 GATE3
-Text GLabel 6450 3000 2    50   Input ~ 0
+Text GLabel 6450 4800 2    50   Input ~ 0
 GATE2
-Text GLabel 6450 2900 2    50   Input ~ 0
+Text GLabel 6450 5300 2    50   Input ~ 0
 GATE1
-Text GLabel 6450 2800 2    50   Input ~ 0
+Text GLabel 6450 3000 2    50   Input ~ 0
 GATE0
 Wire Wire Line
 	6850 3200 6850 3150
@@ -765,13 +765,13 @@ Text GLabel 3900 5450 0    50   Input ~ 0
 SWDIO
 Wire Wire Line
 	3950 5450 3900 5450
-Text GLabel 6450 3600 2    50   Input ~ 0
+Text GLabel 6450 2900 2    50   Input ~ 0
 EN0
-Text GLabel 6450 3700 2    50   Input ~ 0
+Text GLabel 6450 5200 2    50   Input ~ 0
 EN1
-Text GLabel 6450 3800 2    50   Input ~ 0
+Text GLabel 6450 4700 2    50   Input ~ 0
 EN2
-Text GLabel 6450 3900 2    50   Input ~ 0
+Text GLabel 6450 4100 2    50   Input ~ 0
 EN3
 $Comp
 L Device:R R?
@@ -837,29 +837,13 @@ $EndComp
 Wire Wire Line
 	8500 5200 8500 5400
 Wire Wire Line
-	6450 4000 7050 4000
+	7600 4200 7900 4200
 Wire Wire Line
-	7050 4000 7050 4200
+	7600 4500 7900 4500
 Wire Wire Line
-	7050 4200 7900 4200
+	7600 4850 7900 4850
 Wire Wire Line
-	6450 4100 7000 4100
-Wire Wire Line
-	7000 4100 7000 4500
-Wire Wire Line
-	7000 4500 7900 4500
-Wire Wire Line
-	6450 4200 6950 4200
-Wire Wire Line
-	6950 4200 6950 4850
-Wire Wire Line
-	6950 4850 7900 4850
-Wire Wire Line
-	6450 4300 6900 4300
-Wire Wire Line
-	6900 4300 6900 5200
-Wire Wire Line
-	6900 5200 7900 5200
+	7600 5200 7900 5200
 Text HLabel 1000 1700 0    50   Input ~ 0
 +3V3
 Text HLabel 1000 2300 0    50   Input ~ 0
@@ -969,8 +953,24 @@ Wire Wire Line
 	1150 1700 1000 1700
 Text HLabel 1000 4850 0    50   Input ~ 0
 MIDIO
-Text GLabel 6450 4400 2    50   Input ~ 0
+Text GLabel 6450 3900 2    50   Input ~ 0
 MIDIO
 Text GLabel 1000 4850 2    50   Input ~ 0
 MIDIO
+Text GLabel 6450 2800 2    50   Input ~ 0
+LED0
+Text GLabel 7600 4200 0    50   Input ~ 0
+LED1
+Text GLabel 7600 4500 0    50   Input ~ 0
+LED2
+Text GLabel 7600 4850 0    50   Input ~ 0
+LED3
+Text GLabel 6450 4000 2    50   Input ~ 0
+LED3
+Text GLabel 6450 4600 2    50   Input ~ 0
+LED2
+Text GLabel 7600 5200 0    50   Input ~ 0
+LED0
+Text GLabel 6450 5100 2    50   Input ~ 0
+LED1
 $EndSCHEMATC
