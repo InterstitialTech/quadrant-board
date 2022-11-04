@@ -378,7 +378,7 @@ AR Path="/63CDFFAE" Ref="C?"  Part="1"
 AR Path="/63921D71/63CDFFAE" Ref="C33"  Part="1" 
 F 0 "C33" H 6400 2000 50  0000 C CNN
 F 1 "1 uF" H 6350 1800 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6538 1750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6538 1750 50  0001 C CNN
 F 3 "~" H 6500 1900 50  0001 C CNN
 	1    6500 1900
 	-1   0    0    1   
