@@ -83,7 +83,7 @@ AR Path="/63948B4A" Ref="J?"  Part="1"
 AR Path="/63924664/63948B4A" Ref="J6"  Part="1" 
 F 0 "J6" H 5482 5075 50  0000 C CNN
 F 1 "AudioJack2_Ground_SwitchT" H 5482 4984 50  0000 C CNN
-F 2 "quadrant:sj-352x-smt" H 5450 4750 50  0001 C CNN
+F 2 "quadrant:PJ-327C-4A" H 5450 4750 50  0001 C CNN
 F 3 "~" H 5450 4750 50  0001 C CNN
 	1    5450 4750
 	1    0    0    -1  

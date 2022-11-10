@@ -447,7 +447,7 @@ AR Path="/63C0EFA5" Ref="J?"  Part="1"
 AR Path="/63920F76/63C0EFA5" Ref="VC1"  Part="1" 
 F 0 "VC1" H 9182 4375 50  0000 C CNN
 F 1 "AudioJack2_Ground_SwitchT" H 9182 4284 50  0000 C CNN
-F 2 "quadrant:sj-352x-smt" H 9150 4050 50  0001 C CNN
+F 2 "quadrant:PJ-327C-4A" H 9150 4050 50  0001 C CNN
 F 3 "~" H 9150 4050 50  0001 C CNN
 	1    9150 4050
 	1    0    0    -1  
@@ -460,7 +460,7 @@ AR Path="/63C0EFB1" Ref="J?"  Part="1"
 AR Path="/63920F76/63C0EFB1" Ref="VC2"  Part="1" 
 F 0 "VC2" H 5882 6425 50  0000 C CNN
 F 1 "AudioJack2_Ground_SwitchT" H 5882 6334 50  0000 C CNN
-F 2 "quadrant:sj-352x-smt" H 5850 6100 50  0001 C CNN
+F 2 "quadrant:PJ-327C-4A" H 5850 6100 50  0001 C CNN
 F 3 "~" H 5850 6100 50  0001 C CNN
 	1    5850 6100
 	1    0    0    -1  
@@ -633,7 +633,7 @@ AR Path="/63C0F009" Ref="J?"  Part="1"
 AR Path="/63920F76/63C0F009" Ref="VC3"  Part="1" 
 F 0 "VC3" H 2582 4325 50  0000 C CNN
 F 1 "AudioJack2_Ground_SwitchT" H 2582 4234 50  0000 C CNN
-F 2 "quadrant:sj-352x-smt" H 2550 4000 50  0001 C CNN
+F 2 "quadrant:PJ-327C-4A" H 2550 4000 50  0001 C CNN
 F 3 "~" H 2550 4000 50  0001 C CNN
 	1    2550 4000
 	1    0    0    -1  
@@ -864,7 +864,7 @@ AR Path="/63C0EFAB" Ref="J?"  Part="1"
 AR Path="/63920F76/63C0EFAB" Ref="VC0"  Part="1" 
 F 0 "VC0" H 5532 1975 50  0000 C CNN
 F 1 "AudioJack2_Ground_SwitchT" H 5532 1884 50  0000 C CNN
-F 2 "quadrant:sj-352x-smt" H 5500 1650 50  0001 C CNN
+F 2 "quadrant:PJ-327C-4A" H 5500 1650 50  0001 C CNN
 F 3 "~" H 5500 1650 50  0001 C CNN
 	1    5500 1650
 	1    0    0    -1  
