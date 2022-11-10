@@ -53,70 +53,6 @@ Wire Wire Line
 	9200 3000 9200 3050
 Wire Wire Line
 	9200 3050 9650 3050
-$Comp
-L Device:Crystal Y?
-U 1 1 63CDFF13
-P 3100 4300
-AR Path="/63CDFF13" Ref="Y?"  Part="1" 
-AR Path="/63921D71/63CDFF13" Ref="Y1"  Part="1" 
-F 0 "Y1" V 3054 4431 50  0000 L CNN
-F 1 "8 MHz" V 3145 4431 50  0000 L CNN
-F 2 "Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm_HandSoldering" H 3100 4300 50  0001 C CNN
-F 3 "~" H 3100 4300 50  0001 C CNN
-	1    3100 4300
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 63CDFF19
-P 2800 4150
-AR Path="/63CDFF19" Ref="C?"  Part="1" 
-AR Path="/63921D71/63CDFF19" Ref="C25"  Part="1" 
-F 0 "C25" V 2548 4150 50  0000 C CNN
-F 1 "18 pF" V 2639 4150 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2838 4000 50  0001 C CNN
-F 3 "~" H 2800 4150 50  0001 C CNN
-	1    2800 4150
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 63CDFF1F
-P 2800 4450
-AR Path="/63CDFF1F" Ref="C?"  Part="1" 
-AR Path="/63921D71/63CDFF1F" Ref="C26"  Part="1" 
-F 0 "C26" V 2950 4450 50  0000 C CNN
-F 1 "18 pF" V 3050 4450 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2838 4300 50  0001 C CNN
-F 3 "~" H 2800 4450 50  0001 C CNN
-	1    2800 4450
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2950 4150 3100 4150
-Wire Wire Line
-	2950 4450 3100 4450
-Wire Wire Line
-	2650 4150 2650 4300
-$Comp
-L power:GND #PWR?
-U 1 1 63CDFF28
-P 2550 4450
-AR Path="/63CDFF28" Ref="#PWR?"  Part="1" 
-AR Path="/63921D71/63CDFF28" Ref="#PWR061"  Part="1" 
-F 0 "#PWR061" H 2550 4200 50  0001 C CNN
-F 1 "GND" H 2555 4277 50  0000 C CNN
-F 2 "" H 2550 4450 50  0001 C CNN
-F 3 "" H 2550 4450 50  0001 C CNN
-	1    2550 4450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2550 4450 2550 4300
-Wire Wire Line
-	2550 4300 2650 4300
-Wire Wire Line
-	2650 4300 2650 4450
 Text GLabel 6950 3150 1    50   Input ~ 0
 SCL0
 Text GLabel 6850 3150 1    50   Input ~ 0
@@ -256,16 +192,6 @@ Wire Wire Line
 Connection ~ 9200 3550
 Wire Wire Line
 	9200 3550 9200 3250
-Wire Wire Line
-	3800 4200 3800 4150
-Wire Wire Line
-	3800 4200 3950 4200
-Connection ~ 3100 4150
-Wire Wire Line
-	3800 4400 3800 4450
-Wire Wire Line
-	3800 4400 3950 4400
-Connection ~ 3100 4450
 $Comp
 L power:GND #PWR?
 U 1 1 63CDFF7A
@@ -654,7 +580,6 @@ F 3 "" H 4450 4100 50  0001 C CNN
 	1    5200 4100
 	1    0    0    -1  
 $EndComp
-Connection ~ 2650 4300
 Text GLabel 6450 4200 2    50   Input ~ 0
 GATE3
 Text GLabel 6450 4800 2    50   Input ~ 0
@@ -970,25 +895,6 @@ LED0
 Text GLabel 6450 5100 2    50   Input ~ 0
 LED1
 $Comp
-L Device:R R?
-U 1 1 636D6FAF
-P 3600 4450
-AR Path="/636D6FAF" Ref="R?"  Part="1" 
-AR Path="/63921D71/636D6FAF" Ref="R33"  Part="1" 
-F 0 "R33" V 3393 4450 50  0000 C CNN
-F 1 "1k" V 3484 4450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3530 4450 50  0001 C CNN
-F 3 "~" H 3600 4450 50  0001 C CNN
-	1    3600 4450
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3100 4450 3450 4450
-Wire Wire Line
-	3750 4450 3800 4450
-Wire Wire Line
-	3100 4150 3800 4150
-$Comp
 L Memory_Flash:W25Q128JVS U2
 U 1 1 636E6C24
 P 2800 3200
@@ -1020,7 +926,7 @@ AR Path="/636E7767" Ref="R?"  Part="1"
 AR Path="/63921D71/636E7767" Ref="R35"  Part="1" 
 F 0 "R35" V 2300 2800 50  0000 L CNN
 F 1 "DNP" V 2200 2800 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2130 2850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2130 2850 50  0001 C CNN
 F 3 "~" H 2200 2850 50  0001 C CNN
 	1    2200 2850
 	-1   0    0    -1  
@@ -1033,7 +939,7 @@ AR Path="/636E7A52" Ref="R?"  Part="1"
 AR Path="/63921D71/636E7A52" Ref="R34"  Part="1" 
 F 0 "R34" V 1950 3050 50  0000 L CNN
 F 1 "1k" V 1850 3050 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1780 3100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 1780 3100 50  0001 C CNN
 F 3 "~" H 1850 3100 50  0001 C CNN
 	1    1850 3100
 	0    1    -1   0   
@@ -1135,7 +1041,7 @@ U 1 1 63726628
 P 1500 3100
 F 0 "J2" H 1608 3281 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 1600 2900 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1500 3100 50  0001 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical" H 1500 3100 50  0001 C CNN
 F 3 "~" H 1500 3100 50  0001 C CNN
 	1    1500 3100
 	1    0    0    -1  
@@ -1167,4 +1073,73 @@ Text Label 3400 3800 0    50   ~ 0
 SPISCLK
 Text Label 3550 2850 0    50   ~ 0
 SPISS
+$Comp
+L Oscillator:XO53 X1
+U 1 1 6379AA5C
+P 3100 4200
+F 0 "X1" H 3444 4246 50  0000 L CNN
+F 1 "XO53" H 3444 4155 50  0000 L CNN
+F 2 "Oscillator:Oscillator_SMD_Kyocera_KC2520Z-4Pin_2.5x2.0mm" H 3800 3850 50  0001 C CNN
+F 3 "http://cdn-reichelt.de/documents/datenblatt/B400/XO53.pdf" H 3000 4200 50  0001 C CNN
+	1    3100 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6379B39C
+P 3100 4500
+AR Path="/6379B39C" Ref="#PWR?"  Part="1" 
+AR Path="/63921D71/6379B39C" Ref="#PWR0105"  Part="1" 
+F 0 "#PWR0105" H 3100 4250 50  0001 C CNN
+F 1 "GND" H 3105 4327 50  0000 C CNN
+F 2 "" H 3100 4500 50  0001 C CNN
+F 3 "" H 3100 4500 50  0001 C CNN
+	1    3100 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 4200 3950 4200
+$Comp
+L power:+3V3 #PWR?
+U 1 1 637ABA97
+P 3100 3900
+AR Path="/637ABA97" Ref="#PWR?"  Part="1" 
+AR Path="/63921D71/637ABA97" Ref="#PWR0106"  Part="1" 
+F 0 "#PWR0106" H 3100 3750 50  0001 C CNN
+F 1 "+3V3" H 3115 4073 50  0000 C CNN
+F 2 "" H 3100 3900 50  0001 C CNN
+F 3 "" H 3100 3900 50  0001 C CNN
+	1    3100 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 637AC065
+P 2500 4400
+AR Path="/637AC065" Ref="C?"  Part="1" 
+AR Path="/63921D71/637AC065" Ref="C39"  Part="1" 
+F 0 "C39" H 2400 4500 50  0000 C CNN
+F 1 "10 nF" H 2350 4300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2538 4250 50  0001 C CNN
+F 3 "~" H 2500 4400 50  0001 C CNN
+	1    2500 4400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3100 3900 2800 3900
+Wire Wire Line
+	2500 3900 2500 4250
+Connection ~ 3100 3900
+Wire Wire Line
+	2500 4550 2950 4550
+Wire Wire Line
+	2950 4550 2950 4500
+Wire Wire Line
+	2950 4500 3100 4500
+Connection ~ 3100 4500
+Wire Wire Line
+	2800 4200 2800 3900
+Connection ~ 2800 3900
+Wire Wire Line
+	2800 3900 2500 3900
 $EndSCHEMATC

@@ -179,9 +179,9 @@ USB5V
 Wire Wire Line
 	2250 1050 2150 1050
 Text GLabel 2300 1850 2    50   Input ~ 0
-USBDP
+USBD+
 Text GLabel 2300 1550 2    50   Input ~ 0
-USBDM
+USBD-
 Wire Wire Line
 	2150 1550 2250 1550
 Wire Wire Line
@@ -567,11 +567,11 @@ Wire Wire Line
 Wire Wire Line
 	6200 4950 6400 4950
 Text GLabel 6350 3550 0    50   Input ~ 0
-USBDM
+USBD-
 Wire Wire Line
 	6350 3550 6450 3550
 Text GLabel 6350 3450 0    50   Input ~ 0
-USBDP
+USBD+
 Wire Wire Line
 	6350 3450 6450 3450
 $EndSCHEMATC
