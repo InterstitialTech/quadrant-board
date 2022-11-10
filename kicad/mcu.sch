@@ -56,67 +56,67 @@ Wire Wire Line
 $Comp
 L Device:Crystal Y?
 U 1 1 63CDFF13
-P 3500 4300
+P 3100 4300
 AR Path="/63CDFF13" Ref="Y?"  Part="1" 
 AR Path="/63921D71/63CDFF13" Ref="Y1"  Part="1" 
-F 0 "Y1" V 3454 4431 50  0000 L CNN
-F 1 "8 MHz" V 3545 4431 50  0000 L CNN
-F 2 "Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm_HandSoldering" H 3500 4300 50  0001 C CNN
-F 3 "~" H 3500 4300 50  0001 C CNN
-	1    3500 4300
+F 0 "Y1" V 3054 4431 50  0000 L CNN
+F 1 "8 MHz" V 3145 4431 50  0000 L CNN
+F 2 "Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm_HandSoldering" H 3100 4300 50  0001 C CNN
+F 3 "~" H 3100 4300 50  0001 C CNN
+	1    3100 4300
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:C C?
 U 1 1 63CDFF19
-P 3200 4150
+P 2800 4150
 AR Path="/63CDFF19" Ref="C?"  Part="1" 
 AR Path="/63921D71/63CDFF19" Ref="C25"  Part="1" 
-F 0 "C25" V 2948 4150 50  0000 C CNN
-F 1 "18 pF" V 3039 4150 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3238 4000 50  0001 C CNN
-F 3 "~" H 3200 4150 50  0001 C CNN
-	1    3200 4150
+F 0 "C25" V 2548 4150 50  0000 C CNN
+F 1 "18 pF" V 2639 4150 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2838 4000 50  0001 C CNN
+F 3 "~" H 2800 4150 50  0001 C CNN
+	1    2800 4150
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:C C?
 U 1 1 63CDFF1F
-P 3200 4450
+P 2800 4450
 AR Path="/63CDFF1F" Ref="C?"  Part="1" 
 AR Path="/63921D71/63CDFF1F" Ref="C26"  Part="1" 
-F 0 "C26" V 3350 4450 50  0000 C CNN
-F 1 "18 pF" V 3450 4450 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3238 4300 50  0001 C CNN
-F 3 "~" H 3200 4450 50  0001 C CNN
-	1    3200 4450
+F 0 "C26" V 2950 4450 50  0000 C CNN
+F 1 "18 pF" V 3050 4450 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2838 4300 50  0001 C CNN
+F 3 "~" H 2800 4450 50  0001 C CNN
+	1    2800 4450
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3350 4150 3500 4150
+	2950 4150 3100 4150
 Wire Wire Line
-	3350 4450 3500 4450
+	2950 4450 3100 4450
 Wire Wire Line
-	3050 4150 3050 4300
+	2650 4150 2650 4300
 $Comp
 L power:GND #PWR?
 U 1 1 63CDFF28
-P 2950 4450
+P 2550 4450
 AR Path="/63CDFF28" Ref="#PWR?"  Part="1" 
 AR Path="/63921D71/63CDFF28" Ref="#PWR061"  Part="1" 
-F 0 "#PWR061" H 2950 4200 50  0001 C CNN
-F 1 "GND" H 2955 4277 50  0000 C CNN
-F 2 "" H 2950 4450 50  0001 C CNN
-F 3 "" H 2950 4450 50  0001 C CNN
-	1    2950 4450
+F 0 "#PWR061" H 2550 4200 50  0001 C CNN
+F 1 "GND" H 2555 4277 50  0000 C CNN
+F 2 "" H 2550 4450 50  0001 C CNN
+F 3 "" H 2550 4450 50  0001 C CNN
+	1    2550 4450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2950 4450 2950 4300
+	2550 4450 2550 4300
 Wire Wire Line
-	2950 4300 3050 4300
+	2550 4300 2650 4300
 Wire Wire Line
-	3050 4300 3050 4450
+	2650 4300 2650 4450
 Text GLabel 6950 3150 1    50   Input ~ 0
 SCL0
 Text GLabel 6850 3150 1    50   Input ~ 0
@@ -259,17 +259,13 @@ Wire Wire Line
 Wire Wire Line
 	3800 4200 3800 4150
 Wire Wire Line
-	3800 4150 3500 4150
-Wire Wire Line
 	3800 4200 3950 4200
-Connection ~ 3500 4150
+Connection ~ 3100 4150
 Wire Wire Line
 	3800 4400 3800 4450
 Wire Wire Line
-	3800 4450 3500 4450
-Wire Wire Line
 	3800 4400 3950 4400
-Connection ~ 3500 4450
+Connection ~ 3100 4450
 $Comp
 L power:GND #PWR?
 U 1 1 63CDFF7A
@@ -658,7 +654,7 @@ F 3 "" H 4450 4100 50  0001 C CNN
 	1    5200 4100
 	1    0    0    -1  
 $EndComp
-Connection ~ 3050 4300
+Connection ~ 2650 4300
 Text GLabel 6450 4200 2    50   Input ~ 0
 GATE3
 Text GLabel 6450 4800 2    50   Input ~ 0
@@ -973,4 +969,23 @@ Text GLabel 7600 5200 0    50   Input ~ 0
 LED0
 Text GLabel 6450 5100 2    50   Input ~ 0
 LED1
+$Comp
+L Device:R R?
+U 1 1 636D6FAF
+P 3600 4450
+AR Path="/636D6FAF" Ref="R?"  Part="1" 
+AR Path="/63921D71/636D6FAF" Ref="R33"  Part="1" 
+F 0 "R?" V 3393 4450 50  0000 C CNN
+F 1 "1k" V 3484 4450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3530 4450 50  0001 C CNN
+F 3 "~" H 3600 4450 50  0001 C CNN
+	1    3600 4450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3100 4450 3450 4450
+Wire Wire Line
+	3750 4450 3800 4450
+Wire Wire Line
+	3100 4150 3800 4150
 $EndSCHEMATC
