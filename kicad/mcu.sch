@@ -975,7 +975,7 @@ U 1 1 636D6FAF
 P 3600 4450
 AR Path="/636D6FAF" Ref="R?"  Part="1" 
 AR Path="/63921D71/636D6FAF" Ref="R33"  Part="1" 
-F 0 "R?" V 3393 4450 50  0000 C CNN
+F 0 "R33" V 3393 4450 50  0000 C CNN
 F 1 "1k" V 3484 4450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3530 4450 50  0001 C CNN
 F 3 "~" H 3600 4450 50  0001 C CNN
@@ -988,4 +988,171 @@ Wire Wire Line
 	3750 4450 3800 4450
 Wire Wire Line
 	3100 4150 3800 4150
+$Comp
+L Memory_Flash:W25Q128JVS U2
+U 1 1 636E6C24
+P 2800 3200
+F 0 "U2" H 2600 3600 50  0000 C CNN
+F 1 "W25Q128JVS" H 3100 2850 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm" H 2800 3200 50  0001 C CNN
+F 3 "http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf" H 2800 3200 50  0001 C CNN
+	1    2800 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 636E745C
+P 3000 2450
+AR Path="/636E745C" Ref="C?"  Part="1" 
+AR Path="/63921D71/636E745C" Ref="C38"  Part="1" 
+F 0 "C38" H 2900 2550 50  0000 C CNN
+F 1 "0.1 uF" H 2850 2350 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3038 2300 50  0001 C CNN
+F 3 "~" H 3000 2450 50  0001 C CNN
+	1    3000 2450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 636E7767
+P 2200 2850
+AR Path="/636E7767" Ref="R?"  Part="1" 
+AR Path="/63921D71/636E7767" Ref="R35"  Part="1" 
+F 0 "R35" V 2300 2800 50  0000 L CNN
+F 1 "DNP" V 2200 2800 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2130 2850 50  0001 C CNN
+F 3 "~" H 2200 2850 50  0001 C CNN
+	1    2200 2850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 636E7A52
+P 1850 3100
+AR Path="/636E7A52" Ref="R?"  Part="1" 
+AR Path="/63921D71/636E7A52" Ref="R34"  Part="1" 
+F 0 "R34" V 1950 3050 50  0000 L CNN
+F 1 "1k" V 1850 3050 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1780 3100 50  0001 C CNN
+F 3 "~" H 1850 3100 50  0001 C CNN
+	1    1850 3100
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 636EAD81
+P 2800 2300
+AR Path="/636EAD81" Ref="#PWR?"  Part="1" 
+AR Path="/63921D71/636EAD81" Ref="#PWR0101"  Part="1" 
+F 0 "#PWR0101" H 2800 2150 50  0001 C CNN
+F 1 "+3V3" H 2815 2473 50  0000 C CNN
+F 2 "" H 2800 2300 50  0001 C CNN
+F 3 "" H 2800 2300 50  0001 C CNN
+	1    2800 2300
+	1    0    0    -1  
+$EndComp
+Connection ~ 2800 2300
+Wire Wire Line
+	2800 2300 3000 2300
+Wire Wire Line
+	2200 2700 2800 2700
+Wire Wire Line
+	2800 2300 2800 2700
+Connection ~ 2800 2700
+Wire Wire Line
+	2800 2700 2800 2800
+Wire Wire Line
+	2200 3000 2200 3100
+Wire Wire Line
+	2200 3100 2000 3100
+Wire Wire Line
+	2300 3100 2200 3100
+Connection ~ 2200 3100
+$Comp
+L power:GND #PWR?
+U 1 1 636F7A7D
+P 3000 2600
+AR Path="/636F7A7D" Ref="#PWR?"  Part="1" 
+AR Path="/63921D71/636F7A7D" Ref="#PWR0102"  Part="1" 
+F 0 "#PWR0102" H 3000 2350 50  0001 C CNN
+F 1 "GND" H 3005 2427 50  0000 C CNN
+F 2 "" H 3000 2600 50  0001 C CNN
+F 3 "" H 3000 2600 50  0001 C CNN
+	1    3000 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 3000 3950 3000
+Wire Wire Line
+	3950 3100 3300 3100
+Wire Wire Line
+	3300 3300 3400 3300
+Wire Wire Line
+	3400 3300 3400 3200
+Wire Wire Line
+	3400 3200 3950 3200
+Wire Wire Line
+	3300 3400 3450 3400
+Wire Wire Line
+	3450 3400 3450 3300
+Wire Wire Line
+	3450 3300 3950 3300
+$Comp
+L power:GND #PWR?
+U 1 1 63711CEF
+P 2800 3600
+AR Path="/63711CEF" Ref="#PWR?"  Part="1" 
+AR Path="/63921D71/63711CEF" Ref="#PWR0103"  Part="1" 
+F 0 "#PWR0103" H 2800 3350 50  0001 C CNN
+F 1 "GND" H 2805 3427 50  0000 C CNN
+F 2 "" H 2800 3600 50  0001 C CNN
+F 3 "" H 2800 3600 50  0001 C CNN
+	1    2800 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 3300 2200 3300
+Wire Wire Line
+	2200 3300 2200 3800
+Wire Wire Line
+	2200 3800 3750 3800
+Wire Wire Line
+	3750 3800 3750 3450
+Wire Wire Line
+	3750 3450 3950 3450
+Wire Wire Line
+	3950 2850 3300 2850
+Wire Wire Line
+	3300 2850 3300 1900
+Wire Wire Line
+	3300 1900 2000 1900
+Wire Wire Line
+	2000 1900 2000 3100
+Connection ~ 2000 3100
+$Comp
+L Connector:Conn_01x02_Male J2
+U 1 1 63726628
+P 1500 3100
+F 0 "J2" H 1608 3281 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 1600 2900 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1500 3100 50  0001 C CNN
+F 3 "~" H 1500 3100 50  0001 C CNN
+	1    1500 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 63726DFB
+P 1700 3400
+AR Path="/63726DFB" Ref="#PWR?"  Part="1" 
+AR Path="/63921D71/63726DFB" Ref="#PWR0104"  Part="1" 
+F 0 "#PWR0104" H 1700 3150 50  0001 C CNN
+F 1 "GND" H 1705 3227 50  0000 C CNN
+F 2 "" H 1700 3400 50  0001 C CNN
+F 3 "" H 1700 3400 50  0001 C CNN
+	1    1700 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 3200 1700 3400
 $EndSCHEMATC
