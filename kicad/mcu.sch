@@ -65,7 +65,7 @@ AR Path="/63CDFF33" Ref="R?"  Part="1"
 AR Path="/63921D71/63CDFF33" Ref="R27"  Part="1" 
 F 0 "R27" H 7620 3096 50  0000 L CNN
 F 1 "2k" H 7620 3005 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 7480 3050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7480 3050 50  0001 C CNN
 F 3 "~" H 7550 3050 50  0001 C CNN
 	1    7550 3050
 	-1   0    0    -1  
@@ -91,7 +91,7 @@ AR Path="/63CDFF3F" Ref="R?"  Part="1"
 AR Path="/63921D71/63CDFF3F" Ref="R25"  Part="1" 
 F 0 "R25" H 7320 3096 50  0000 L CNN
 F 1 "2k" H 7320 3005 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 7180 3050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7180 3050 50  0001 C CNN
 F 3 "~" H 7250 3050 50  0001 C CNN
 	1    7250 3050
 	-1   0    0    -1  
@@ -130,7 +130,7 @@ AR Path="/63CDFF51" Ref="R?"  Part="1"
 AR Path="/63921D71/63CDFF51" Ref="R29"  Part="1" 
 F 0 "R29" V 8143 4200 50  0000 C CNN
 F 1 "10" V 8234 4200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 8280 4200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 8280 4200 50  0001 C CNN
 F 3 "~" H 8350 4200 50  0001 C CNN
 	1    8350 4200
 	0    -1   -1   0   
@@ -395,7 +395,7 @@ AR Path="/63CDFFDD" Ref="R?"  Part="1"
 AR Path="/63921D71/63CDFFDD" Ref="R24"  Part="1" 
 F 0 "R24" V 6800 2450 50  0000 L CNN
 F 1 "27" V 6700 2450 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6630 2500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 6630 2500 50  0001 C CNN
 F 3 "~" H 6700 2500 50  0001 C CNN
 	1    6700 2500
 	0    -1   1    0   
@@ -408,7 +408,7 @@ AR Path="/63CDFFE3" Ref="R?"  Part="1"
 AR Path="/63921D71/63CDFFE3" Ref="R23"  Part="1" 
 F 0 "R23" V 6600 2350 50  0000 L CNN
 F 1 "27" V 6700 2350 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6630 2400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 6630 2400 50  0001 C CNN
 F 3 "~" H 6700 2400 50  0001 C CNN
 	1    6700 2400
 	0    -1   1    0   
@@ -626,7 +626,7 @@ AR Path="/63CE0053" Ref="R?"  Part="1"
 AR Path="/63921D71/63CE0053" Ref="R28"  Part="1" 
 F 0 "R28" H 7620 3746 50  0000 L CNN
 F 1 "4.7k" H 7620 3655 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 7480 3700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7480 3700 50  0001 C CNN
 F 3 "~" H 7550 3700 50  0001 C CNN
 	1    7550 3700
 	-1   0    0    -1  
@@ -639,7 +639,7 @@ AR Path="/63CE0059" Ref="R?"  Part="1"
 AR Path="/63921D71/63CE0059" Ref="R26"  Part="1" 
 F 0 "R26" H 7320 3746 50  0000 L CNN
 F 1 "4.7k" H 7320 3655 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 7180 3700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7180 3700 50  0001 C CNN
 F 3 "~" H 7250 3700 50  0001 C CNN
 	1    7250 3700
 	-1   0    0    -1  
@@ -702,7 +702,7 @@ AR Path="/63CE0078" Ref="R?"  Part="1"
 AR Path="/63921D71/63CE0078" Ref="R30"  Part="1" 
 F 0 "R30" V 8143 4500 50  0000 C CNN
 F 1 "10" V 8234 4500 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 8280 4500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 8280 4500 50  0001 C CNN
 F 3 "~" H 8350 4500 50  0001 C CNN
 	1    8350 4500
 	0    -1   -1   0   
@@ -715,7 +715,7 @@ AR Path="/63CE007E" Ref="R?"  Part="1"
 AR Path="/63921D71/63CE007E" Ref="R31"  Part="1" 
 F 0 "R31" V 8143 4850 50  0000 C CNN
 F 1 "10" V 8234 4850 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 8280 4850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 8280 4850 50  0001 C CNN
 F 3 "~" H 8350 4850 50  0001 C CNN
 	1    8350 4850
 	0    -1   -1   0   
@@ -728,7 +728,7 @@ AR Path="/63CE0084" Ref="R?"  Part="1"
 AR Path="/63921D71/63CE0084" Ref="R32"  Part="1" 
 F 0 "R32" V 8143 5200 50  0000 C CNN
 F 1 "10" V 8234 5200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 8280 5200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 8280 5200 50  0001 C CNN
 F 3 "~" H 8350 5200 50  0001 C CNN
 	1    8350 5200
 	0    -1   -1   0   
