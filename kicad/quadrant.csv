@@ -1,26 +1,29 @@
-Id,Designator,Package,Quantity,Designation,Supplier and ref,
-1,"TOF3,TOF2,TOF1,TOF0",SENSOR_VL53L0X,4,VL53L0X,,
-2,"R33,R20,R19,R18,R17,R16,R15,R14,R13",R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,9,1k,,
-3,"C23,C22,C21,C20,C19,C18,C17,C16,C15,C14,C12,C11,C9,C8,C5,C29,C27,C37,C36,C35,C34,C32,C31,C30",C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,24,0.1 uF,0603B104K500NT ,C30926 
-4,"C26,C25",C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,2,18 pF,,
-5,"C33,C28,C24,C13,C3,C2,C1",C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,7,1 uF,0805B105K500NT ,C215803 
-6,Y1,Crystal_SMD_2012-2Pin_2.0x1.2mm_HandSoldering,1,8 MHz,,
-7,Q1,SOT-23-6_Handsoldering,1,Q_DUAL_NMOS_S1G1D2S2G2D1,,
-8,"C10,C7,C6,C4",C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,4,4.7 uF,0805F475M500NTCopy ,C215908 
-9,"R32,R31,R30,R29",R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,4,10,,
-10,"R28,R26,R11,R12",R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,4,4.7k,,
-11,"R27,R25",R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,2,2k,,
-12,"R24,R23",R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,2,27,,
-13,"R22,R21",R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,2,220,,
-14,"R10,R9,R8,R7,R6,R5,R4,R3",R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,8,10k,,
-15,"R2,R1",R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,2,5.1k,,
-16,U9,RP2040-QFN-56,1,RP2040,,
-17,U8,TSSOP-14_4.4x5mm_P0.65mm,1,TSV994IPT,,
-18,U7,SON40P300X500X80-15N,1,DS3911,,
-19,U6,SOT-553,1,TCR2EE48,,
-20,J7,PinHeader_1x06_P2.54mm_Vertical,1,Conn_01x06,,
-21,"VC1,VC2,VC0,VC3,J6",sj-352x-smt,5,AudioJack2_Ground_SwitchT,,
-22,"D0,D3,D2,D1",LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,4,LED,,
-23,Q2,SOT-23,1,Q_NMOS_GDS,,
-24,J1,USB_C_Receptacle_Amphenol_12401610E4-2A_CircularHoles_nopads,1,USB_C_Receptacle-Connector,,
-25,U1,SOT-23-6_Handsoldering,1,AP7332-2833,,
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"TOF3,TOF2,TOF1,TOF0";"SENSOR_VL53L0X";4;"VL53L0X";;;
+2;"J6,VC3,VC2,VC1,VC0";"PJ-327C-4A";5;"AudioJack2_Ground_SwitchT";;;
+3;"R32,R31,R30,R29";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";4;"10";;;
+4;"R28,R26,R12,R11";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";4;"4.7k";;;
+5;"R27,R25";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";2;"2k";;;
+6;"R24,R23";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";2;"27";;;
+7;"R22,R21";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";2;"220";;;
+8;"R20,R19,R18,R17,R16,R15,R14,R13,R34";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";9;"1k";;;
+9;"R10,R9,R8,R7,R6,R5,R4,R3";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";8;"10k";;;
+10;"R2,R1";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";2;"5.1k";;;
+11;"R35";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";1;"DNP";;;
+12;"J2";"PinHeader_1x02_P2.00mm_Vertical";1;"Conn_01x02_Male";;;
+13;"X1";"Oscillator_SMD_Kyocera_KC2520Z-4Pin_2.5x2.0mm";1;"XO53";;;
+14;"C39";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";1;"10 nF";;;
+15;"U2";"SOIC-8_5.23x5.23mm_P1.27mm";1;"W25Q128JVS";;;
+16;"C38,C23,C22,C21,C20,C19,C18,C17,C16,C15,C14,C12,C11,C9,C8,C5,C29,C27,C37,C36,C35,C34,C32,C31,C30";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";25;"0.1 uF";;;
+17;"C33,C28,C24,C13,C3,C2,C1";"C_0805_2012Metric_Pad1.18x1.45mm_HandSolder";7;"1 uF";;;
+18;"Q1";"SOT-23-6_Handsoldering";1;"Q_DUAL_NMOS_S1G1D2S2G2D1";;;
+19;"C10,C7,C6,C4";"C_0805_2012Metric_Pad1.18x1.45mm_HandSolder";4;"4.7 uF";;;
+20;"U9";"RP2040-QFN-56";1;"RP2040";;;
+21;"U8";"TSSOP-14_4.4x5mm_P0.65mm";1;"TSV994IPT";;;
+22;"U7";"SON40P300X500X80-15N";1;"DS3911";;;
+23;"U6";"SOT-553";1;"TCR2EE48";;;
+24;"J7";"PinHeader_1x06_P2.54mm_Vertical";1;"Conn_01x06";;;
+25;"D0,D3,D2,D1";"LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder";4;"LED";;;
+26;"Q2";"SOT-23";1;"Q_NMOS_GDS";;;
+27;"J1";"USB_C_Receptacle_Amphenol_12401610E4-2A_CircularHoles_nopads";1;"USB_C_Receptacle-Connector";;;
+28;"U1";"SOT-23-6_Handsoldering";1;"AP7332-2833";;;
