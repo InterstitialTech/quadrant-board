@@ -458,9 +458,9 @@ F 3 "" H 3700 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 6950 2400 2    50   Input ~ 0
-USBDP
+USBD+
 Text GLabel 6950 2500 2    50   Input ~ 0
-USBDM
+USBD-
 $Comp
 L Device:R R?
 U 1 1 63CDFFDD
@@ -925,13 +925,13 @@ SDA1
 Text GLabel 1000 4250 2    50   Input ~ 0
 SCL1
 Text HLabel 1000 4550 0    50   Input ~ 0
-USBDP
+USBD+
 Text HLabel 1000 4700 0    50   Input ~ 0
-USBDM
+USBD-
 Text GLabel 1000 4550 2    50   Input ~ 0
-USBDP
+USBD+
 Text GLabel 1000 4700 2    50   Input ~ 0
-USBDM
+USBD-
 $Comp
 L power:+3V3 #PWR?
 U 1 1 63D0901B
@@ -1155,4 +1155,16 @@ F 3 "" H 1700 3400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1700 3200 1700 3400
+Text Label 3550 3000 0    50   ~ 0
+SPID0
+Text Label 3550 3100 0    50   ~ 0
+SPID1
+Text Label 3550 3200 0    50   ~ 0
+SPID2
+Text Label 3550 3300 0    50   ~ 0
+SPID3
+Text Label 3400 3800 0    50   ~ 0
+SPISCLK
+Text Label 3550 2850 0    50   ~ 0
+SPISS
 $EndSCHEMATC
