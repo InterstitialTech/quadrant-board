@@ -1,4 +1,4 @@
-19067508671558584
+19069176866426267
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83152,6 +83152,13 @@ SON40P300X500X80-15N
 0
 15
 15
+quadrant
+SOT-25
+5-pin SOT23 package
+SOT-23-5
+0
+5
+5
 quadrant
 SOT-26
 6-pin SOT-23 package

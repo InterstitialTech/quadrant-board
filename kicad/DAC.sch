@@ -731,23 +731,6 @@ Wire Wire Line
 	8800 3600 9150 3600
 Wire Wire Line
 	8800 4600 9150 4600
-$Comp
-L quadrant:TCR2EE U?
-U 1 1 63AF8548
-P 4550 3550
-AR Path="/63AF8548" Ref="U?"  Part="1" 
-AR Path="/63922B28/63AF8548" Ref="U6"  Part="1" 
-F 0 "U6" H 4300 3750 50  0000 C CNN
-F 1 "VRH4801NTX" H 4500 3350 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-553" H 4550 3550 50  0001 C CNN
-F 3 "" H 4550 3550 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/TCR2EE48-LM/5114341" H 4550 3550 50  0001 C CNN "digikey"
-F 5 "SOT-23-5" H 4550 3550 50  0001 C CNN "JLC"
-F 6 "C698019" H 4550 3550 50  0001 C CNN "LCSC"
-F 7 "---" H 4550 3550 50  0001 C CNN "ordered"
-	1    4550 3550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4150 3500 4100 3500
 Wire Wire Line
@@ -795,10 +778,6 @@ Wire Wire Line
 	4950 3700 5050 3700
 Wire Wire Line
 	3900 3500 4100 3500
-Wire Wire Line
-	3900 3700 4000 3700
-Wire Wire Line
-	4100 3700 4100 3650
 $Comp
 L power:GND #PWR?
 U 1 1 63AF8566
@@ -818,19 +797,16 @@ Wire Wire Line
 $Comp
 L power:GND #PWR?
 U 1 1 63AF856E
-P 4000 3700
+P 3900 3700
 AR Path="/63AF856E" Ref="#PWR?"  Part="1" 
 AR Path="/63922B28/63AF856E" Ref="#PWR040"  Part="1" 
-F 0 "#PWR040" H 4000 3450 50  0001 C CNN
-F 1 "GND" H 3850 3600 50  0000 C CNN
-F 2 "" H 4000 3700 50  0001 C CNN
-F 3 "" H 4000 3700 50  0001 C CNN
-	1    4000 3700
+F 0 "#PWR040" H 3900 3450 50  0001 C CNN
+F 1 "GND" H 3750 3600 50  0000 C CNN
+F 2 "" H 3900 3700 50  0001 C CNN
+F 3 "" H 3900 3700 50  0001 C CNN
+	1    3900 3700
 	1    0    0    -1  
 $EndComp
-Connection ~ 4000 3700
-Wire Wire Line
-	4000 3700 4100 3700
 Text GLabel 5300 3500 2    50   Input ~ 0
 4v8
 Wire Wire Line
@@ -968,4 +944,17 @@ Wire Wire Line
 	1550 3700 1400 3700
 Wire Wire Line
 	8800 4100 9150 4100
+$Comp
+L quadrant:VRH4801NTX U?
+U 1 1 6386062D
+P 4550 3550
+F 0 "U?" H 4550 3865 50  0000 C CNN
+F 1 "VRH4801NTX" H 4550 3774 50  0000 C CNN
+F 2 "quadrant:SOT-25" H 4550 3550 50  0001 C CNN
+F 3 "" H 4550 3550 50  0001 C CNN
+	1    4550 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 3650 4100 3500
 $EndSCHEMATC
