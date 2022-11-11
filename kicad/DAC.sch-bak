@@ -778,10 +778,6 @@ Wire Wire Line
 	4950 3700 5050 3700
 Wire Wire Line
 	3900 3500 4100 3500
-Wire Wire Line
-	3900 3700 4000 3700
-Wire Wire Line
-	4100 3700 4100 3650
 $Comp
 L power:GND #PWR?
 U 1 1 63AF8566
@@ -801,19 +797,16 @@ Wire Wire Line
 $Comp
 L power:GND #PWR?
 U 1 1 63AF856E
-P 4000 3700
+P 3900 3700
 AR Path="/63AF856E" Ref="#PWR?"  Part="1" 
 AR Path="/63922B28/63AF856E" Ref="#PWR040"  Part="1" 
-F 0 "#PWR040" H 4000 3450 50  0001 C CNN
-F 1 "GND" H 3850 3600 50  0000 C CNN
-F 2 "" H 4000 3700 50  0001 C CNN
-F 3 "" H 4000 3700 50  0001 C CNN
-	1    4000 3700
+F 0 "#PWR040" H 3900 3450 50  0001 C CNN
+F 1 "GND" H 3750 3600 50  0000 C CNN
+F 2 "" H 3900 3700 50  0001 C CNN
+F 3 "" H 3900 3700 50  0001 C CNN
+	1    3900 3700
 	1    0    0    -1  
 $EndComp
-Connection ~ 4000 3700
-Wire Wire Line
-	4000 3700 4100 3700
 Text GLabel 5300 3500 2    50   Input ~ 0
 4v8
 Wire Wire Line
@@ -962,4 +955,6 @@ F 3 "" H 4550 3550 50  0001 C CNN
 	1    4550 3550
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4100 3650 4100 3500
 $EndSCHEMATC
