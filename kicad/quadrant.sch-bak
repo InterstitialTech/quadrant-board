@@ -27,6 +27,7 @@ F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1388 5050 50  
 F 3 "~" H 1350 5200 50  0001 C CNN
 F 4 "0805" H 1350 5200 50  0001 C CNN "JLC"
 F 5 "C215803" H 1350 5200 50  0001 C CNN "LCSC"
+F 6 "y" H 1350 5200 50  0001 C CNN "ordered"
 	1    1350 5200
 	1    0    0    -1  
 $EndComp
@@ -67,6 +68,7 @@ F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2788 5150 50  
 F 3 "~" H 2750 5300 50  0001 C CNN
 F 4 "0805" H 2750 5300 50  0001 C CNN "JLC"
 F 5 "C215803" H 2750 5300 50  0001 C CNN "LCSC"
+F 6 "y" H 2750 5300 50  0001 C CNN "ordered"
 	1    2750 5300
 	1    0    0    -1  
 $EndComp
@@ -87,6 +89,7 @@ F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3188 5150 50  
 F 3 "~" H 3150 5300 50  0001 C CNN
 F 4 "0805" H 3150 5300 50  0001 C CNN "JLC"
 F 5 "C215803" H 3150 5300 50  0001 C CNN "LCSC"
+F 6 "y" H 3150 5300 50  0001 C CNN "ordered"
 	1    3150 5300
 	1    0    0    -1  
 $EndComp
@@ -146,6 +149,7 @@ F 2 "quadrant:USB_C_Receptacle_Amphenol_12401610E4-2A_CircularHoles_nopads" H 17
 F 3 "" H 1700 2050 50  0001 C CNN
 F 4 "SMD" H 1550 2050 50  0001 C CNN "JLC"
 F 5 "C709357" H 1550 2050 50  0001 C CNN "LCSC"
+F 6 "_--_" H 1550 2050 50  0001 C CNN "ordered"
 	1    1550 2050
 	1    0    0    -1  
 $EndComp
@@ -205,6 +209,9 @@ F 0 "R2" V 2500 1250 50  0000 L CNN
 F 1 "5.1k" V 2400 1250 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2330 1350 50  0001 C CNN
 F 3 "~" H 2400 1350 50  0001 C CNN
+F 4 "0603" H 2400 1350 50  0001 C CNN "JLC"
+F 5 "C23186" H 2400 1350 50  0001 C CNN "LCSC"
+F 6 "y" H 2400 1350 50  0001 C CNN "ordered"
 	1    2400 1350
 	0    1    1    0   
 $EndComp
@@ -216,6 +223,9 @@ F 0 "R1" V 2300 1150 50  0000 L CNN
 F 1 "5.1k" V 2400 1150 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2330 1250 50  0001 C CNN
 F 3 "~" H 2400 1250 50  0001 C CNN
+F 4 "0603" H 2400 1250 50  0001 C CNN "JLC"
+F 5 "C23186" H 2400 1250 50  0001 C CNN "LCSC"
+F 6 "y" H 2400 1250 50  0001 C CNN "ordered"
 	1    2400 1250
 	0    1    1    0   
 $EndComp
@@ -581,6 +591,7 @@ F 2 "quadrant:SOT-26" H 2250 5050 50  0001 C CNN
 F 3 "" H 2250 5050 50  0001 C CNN
 F 4 "SOT-23-6" H 2150 5150 50  0001 C CNN "JLC"
 F 5 "C697940" H 2150 5150 50  0001 C CNN "LCSC"
+F 6 "y" H 2150 5150 50  0001 C CNN "ordered"
 	1    2150 5150
 	1    0    0    -1  
 $EndComp
