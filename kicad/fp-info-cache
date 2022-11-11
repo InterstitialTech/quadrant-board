@@ -1,4 +1,4 @@
-19064172361014444
+19067508671558584
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83118,6 +83118,13 @@ SMD SMT crystal
 2
 2
 quadrant
+PJ-327C-4A
+
+
+0
+6
+4
+quadrant
 RP2040-QFN-56
 QFN, 56 Pin (http://www.cypress.com/file/416486/download#page=40), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
 QFN DFN_QFN
@@ -83145,6 +83152,13 @@ SON40P300X500X80-15N
 0
 15
 15
+quadrant
+SOT-26
+6-pin SOT-23 package
+SOT-23-6
+0
+6
+6
 quadrant
 TCRT5000
 

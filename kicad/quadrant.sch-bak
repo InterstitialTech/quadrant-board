@@ -13,17 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L quadrant:AP7332-2833 U1
-U 1 1 5C3CAA4D
-P 2150 5150
-F 0 "U1" H 2150 5515 50  0000 C CNN
-F 1 "AP7332-2833" H 2150 5424 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 2250 5050 50  0001 C CNN
-F 3 "" H 2250 5050 50  0001 C CNN
-	1    2150 5150
-	1    0    0    -1  
-$EndComp
 Text GLabel 1350 4950 1    50   Input ~ 0
 USB5V
 Wire Wire Line
@@ -574,4 +563,15 @@ Text GLabel 6350 3450 0    50   Input ~ 0
 USBD+
 Wire Wire Line
 	6350 3450 6450 3450
+$Comp
+L quadrant:VRD2833PTX U1
+U 1 1 6383A86C
+P 2150 5150
+F 0 "U1" H 2150 5515 50  0000 C CNN
+F 1 "VRD2833PTX" H 2150 5424 50  0000 C CNN
+F 2 "" H 2250 5050 50  0001 C CNN
+F 3 "" H 2250 5050 50  0001 C CNN
+	1    2150 5150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
