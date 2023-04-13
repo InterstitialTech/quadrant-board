@@ -589,6 +589,8 @@ F 0 "J1" H 1657 2517 50  0000 C CNN
 F 1 "USB_C_Receptacle_USB2.0" H 1657 2426 50  0000 C CNN
 F 2 "quadrant:USB_C_Receptacle_HRO_TYPE-C-31-M-12" H 1700 1650 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1700 1650 50  0001 C CNN
+F 4 "SMD" H 1550 1650 50  0001 C CNN "JLC"
+F 5 "C709357" H 1550 1650 50  0001 C CNN "LCSC"
 	1    1550 1650
 	1    0    0    -1  
 $EndComp
