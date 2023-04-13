@@ -730,7 +730,7 @@ Wire Wire Line
 Wire Wire Line
 	9350 5500 9350 5650
 Wire Wire Line
-	9350 5650 9650 5650
+	9350 5650 9500 5650
 Wire Wire Line
 	8800 3150 9150 3150
 Wire Wire Line
@@ -966,4 +966,22 @@ F 6 "y" H 4550 3550 50  0001 C CNN "ordered"
 $EndComp
 Wire Wire Line
 	4100 3650 4100 3500
+Text GLabel 9350 5050 0    50   Input ~ 0
+4v8
+$Comp
+L power:GND #PWR?
+U 1 1 6437C562
+P 9500 5650
+AR Path="/6437C562" Ref="#PWR?"  Part="1" 
+AR Path="/63922B28/6437C562" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9500 5400 50  0001 C CNN
+F 1 "GND" H 9350 5600 50  0000 C CNN
+F 2 "" H 9500 5650 50  0001 C CNN
+F 3 "" H 9500 5650 50  0001 C CNN
+	1    9500 5650
+	1    0    0    -1  
+$EndComp
+Connection ~ 9500 5650
+Wire Wire Line
+	9500 5650 9650 5650
 $EndSCHEMATC
