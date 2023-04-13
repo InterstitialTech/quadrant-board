@@ -473,13 +473,13 @@ Wire Wire Line
 Wire Wire Line
 	3250 3350 3250 3450
 $Comp
-L Connector:AudioJack2_Ground_SwitchT J?
+L quadrant:PJ-327C-4A J?
 U 1 1 63C0EFA5
 P 9150 4050
 AR Path="/63C0EFA5" Ref="J?"  Part="1" 
 AR Path="/63920F76/63C0EFA5" Ref="VC1"  Part="1" 
 F 0 "VC1" H 9182 4375 50  0000 C CNN
-F 1 "AudioJack2_Ground_SwitchT" H 9182 4284 50  0000 C CNN
+F 1 "PJ-327C-4A" H 9182 4284 50  0000 C CNN
 F 2 "quadrant:PJ-327C-4A" H 9150 4050 50  0001 C CNN
 F 3 "~" H 9150 4050 50  0001 C CNN
 F 4 "SMD" H 9150 4050 50  0001 C CNN "JLC"
@@ -489,13 +489,13 @@ F 6 "y" H 9150 4050 50  0001 C CNN "ordered"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:AudioJack2_Ground_SwitchT J?
+L quadrant:PJ-327C-4A J?
 U 1 1 63C0EFB1
 P 5850 6100
 AR Path="/63C0EFB1" Ref="J?"  Part="1" 
 AR Path="/63920F76/63C0EFB1" Ref="VC2"  Part="1" 
 F 0 "VC2" H 5882 6425 50  0000 C CNN
-F 1 "AudioJack2_Ground_SwitchT" H 5882 6334 50  0000 C CNN
+F 1 "PJ-327C-4A" H 5882 6334 50  0000 C CNN
 F 2 "quadrant:PJ-327C-4A" H 5850 6100 50  0001 C CNN
 F 3 "~" H 5850 6100 50  0001 C CNN
 F 4 "SMD" H 5850 6100 50  0001 C CNN "JLC"
@@ -680,13 +680,13 @@ F 9 "y" H 5850 5400 50  0001 C CNN "ordered"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:AudioJack2_Ground_SwitchT J?
+L quadrant:PJ-327C-4A J?
 U 1 1 63C0F009
 P 2550 4000
 AR Path="/63C0F009" Ref="J?"  Part="1" 
 AR Path="/63920F76/63C0F009" Ref="VC3"  Part="1" 
 F 0 "VC3" H 2582 4325 50  0000 C CNN
-F 1 "AudioJack2_Ground_SwitchT" H 2582 4234 50  0000 C CNN
+F 1 "PJ-327C-4A" H 2582 4234 50  0000 C CNN
 F 2 "quadrant:PJ-327C-4A" H 2550 4000 50  0001 C CNN
 F 3 "~" H 2550 4000 50  0001 C CNN
 F 4 "SMD" H 2550 4000 50  0001 C CNN "JLC"
@@ -926,13 +926,13 @@ SCL0
 Text GLabel 1000 2800 2    50   Input ~ 0
 DAC3
 $Comp
-L Connector:AudioJack2_Ground_SwitchT J?
+L quadrant:PJ-327C-4A J?
 U 1 1 63C0EFAB
 P 5500 1650
 AR Path="/63C0EFAB" Ref="J?"  Part="1" 
 AR Path="/63920F76/63C0EFAB" Ref="VC0"  Part="1" 
 F 0 "VC0" H 5532 1975 50  0000 C CNN
-F 1 "AudioJack2_Ground_SwitchT" H 5532 1884 50  0000 C CNN
+F 1 "PJ-327C-4A" H 5532 1884 50  0000 C CNN
 F 2 "quadrant:PJ-327C-4A" H 5500 1650 50  0001 C CNN
 F 3 "~" H 5500 1650 50  0001 C CNN
 F 4 "SMD" H 5500 1650 50  0001 C CNN "JLC"

@@ -69,7 +69,7 @@ Wire Wire Line
 Wire Wire Line
 	5650 4350 6000 4350
 $Comp
-L quadrant:PJ-327C-4A J?
+L quadrant:AudioJack2_Ground_SwitchT J?
 U 1 1 63948B4A
 P 5450 4750
 AR Path="/63948B4A" Ref="J?"  Part="1" 
