@@ -2,7 +2,6 @@
 *-bak
 *.bck
 *.swp
-kicad/quadrant.xml
 *.drl
 *.g3
 *.g3
