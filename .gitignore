@@ -53,3 +53,4 @@ quadrant-v4-gerbers-2/quadrant-PTH.drl
 *.gbs
 *.gbl
 *.zip
+~*.lck
