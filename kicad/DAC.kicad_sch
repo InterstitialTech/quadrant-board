@@ -688,7 +688,7 @@
     )
   )
 
-  (hierarchical_label "SCL1" (shape input) (at 97.155 36.83 180) (fields_autoplaced)
+  (hierarchical_label "SCK" (shape input) (at 97.155 36.83 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 014b4ceb-ff4b-4a74-8e24-86002c34c2ef)
   )
@@ -704,7 +704,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 3ada0498-017b-425c-9b3b-ce71a440c298)
   )
-  (hierarchical_label "SDA1" (shape input) (at 97.155 39.37 180) (fields_autoplaced)
+  (hierarchical_label "SDI" (shape input) (at 97.155 39.37 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 404639eb-9d65-42a3-b35c-31e6fa9a591d)
   )
