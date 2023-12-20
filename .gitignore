@@ -21,4 +21,5 @@
 *.zip
 *.xml
 kicad/production/
+kicad/jlcpcb/
 ~*.lck
