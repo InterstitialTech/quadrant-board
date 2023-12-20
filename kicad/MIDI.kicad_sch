@@ -957,10 +957,16 @@
     (property "Value" "H11L1" (at 186.69 73.66 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_DIP:DIP-6_W7.62mm_SMDSocket_SmallPads" (at 179.324 80.01 0)
+    (property "Footprint" "Package_DIP:DIP-6_W8.89mm_SMDSocket_LongPads" (at 179.324 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.onsemi.com/pub/Collateral/H11L3M-D.PDF" (at 179.324 80.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLC" "SOP-6-2.54mm" (at 181.61 80.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C78589" (at 181.61 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 4c441d4f-76b5-4e65-9d79-44391bc4c893))
@@ -1037,7 +1043,7 @@
   (symbol (lib_id "quadrant:AudioJack2_Ground_SwitchT") (at 137.795 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3bb8b307-2368-43e2-b958-e495a7753027)
-    (property "Reference" "MIDII1" (at 138.6078 71.755 0)
+    (property "Reference" "MIDI1" (at 138.6078 71.755 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "AudioJack2_Ground_SwitchT" (at 138.6078 74.0664 0)
@@ -1065,7 +1071,7 @@
     (instances
       (project "quadrant"
         (path "/8946b391-7a1a-4938-822f-fe0b062d1674/00000000-0000-0000-0000-000063924664"
-          (reference "MIDII1") (unit 1)
+          (reference "MIDI1") (unit 1)
         )
         (path "/8946b391-7a1a-4938-822f-fe0b062d1674"
           (reference "J?") (unit 1)
