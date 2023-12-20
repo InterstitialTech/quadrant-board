@@ -23,3 +23,7 @@
 kicad/production/
 kicad/jlcpcb/
 ~*.lck
+kicad/production/bom.csv
+kicad/production/bom.csv
+kicad/production/bom.csv
+kicad/production/designators.csv
