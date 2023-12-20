@@ -20,5 +20,5 @@
 *.gbl
 *.zip
 *.xml
-\kicad\production\*
+*\kicad\production\*
 ~*.lck
